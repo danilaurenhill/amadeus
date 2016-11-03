@@ -1,0 +1,36 @@
+.slideshow {
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.extras {
+  position: absolute;
+  .pics {
+    position: relative;
+    border-radius: 50%;
+    top: 60px;
+    left: 140px; 
+    width: 200px;
+    height: 200px;
+    padding-left: 30px;
+  }
+  .vids {
+    position: relative;
+    border-radius: 50%;
+    left: 540px; 
+    top: -140px ;
+    width: 200px;
+    height: 200px;
+    padding-left: 30px;
+  }
+  .news {
+    position: relative;
+    border-radius: 50%;
+    left: 937px; 
+    top: -340px;
+    width: 200px;
+    height: 200px;
+    padding-left: 30px;
+  }
+}

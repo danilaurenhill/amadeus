@@ -1,0 +1,20 @@
+body {margin:0;}
+
+h1 {
+  padding-top: 20px;
+  padding-left: 20px;
+  color: gray;
+}
+
+.nav-block {
+  position: absolute;
+  p {
+    position: relative;
+    display: inline-block;
+    padding-left: 65px;
+    &:first-of-type {
+      padding-left: 75px;
+      color: blue;
+    }
+  }
+}
