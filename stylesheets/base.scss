@@ -1,9 +1,24 @@
+$font: Garamond, "Times New Roman", Times, serif;
+
 body {margin:0;}
 
 h1 {
+  font-family: $font;
   padding-top: 20px;
   padding-left: 20px;
   color: gray;
+}
+h2 {
+  font-family: $font;
+}
+h3 {
+  font-family: $font;
+}
+p {
+  font-family: $font;
+}
+a {
+  font-family: $font;
 }
 
 .nav-block {

@@ -7,7 +7,6 @@
   }
 }
 
-
 .extras {
   width: 100%;
   height: 600px;
@@ -20,10 +19,20 @@
     margin-right: 20px;
     margin-left: 14%;
     .photo {
+      border-style: groove;
       margin-left: 20%;
       margin-right: 20%;
-      margin-top: 50px;
+      margin-top: 5px;
       width: 60%;
+    }
+    h2 {
+      font-size: 22px;
+      padding-left: 20px;
+    }
+    p {
+      padding-left: 28px;
+      text-align: justify;
+      width: 90%;
     }
   }
   .vids {
@@ -33,10 +42,20 @@
     border-style: ridge;
     margin-right: 20px;
     .photo {
+      border-style: groove;
       margin-left: 20%;
       margin-right: 20%;
-      margin-top: 50px;
+      margin-top: 5px;
       width: 60%;
+    }
+    h2 {
+      font-size: 22px;
+      padding-left: 20px;
+    }
+    p {
+      padding-left: 28px;
+      text-align: justify;
+      width: 90%;
     }
   }
   .news {
@@ -46,10 +65,145 @@
     border-style: ridge;
     margin-right: 20px;
     .photo {
+      border-style: groove;
       margin-left: 20%;
       margin-right: 20%;
-      margin-top: 50px;
+      margin-top: 5px;
       width: 60%;
+    }
+    h2 {
+      font-size: 22px;
+      padding-left: 20px;
+    }
+    p {
+      padding-left: 28px;
+      text-align: justify;
+      width: 90%;
     }
   }
 }
+
+/*locations page*/
+
+.locations {
+  margin: 25px;
+  .loc_1 {
+    text-align: center;
+    padding-bottom: 60px;
+    h2 {
+      margin-left: -61%;
+      font-size: 24px;
+      padding-bottom: 15px;
+    }
+    img {
+      margin-right: 20px;
+      width: 25%;
+      height: 30%
+    }
+    h3 {
+      font-size: 22px;
+      padding-top: 20px;
+    }
+    .r {
+      margin-bottom: 10px;
+      width: 5.5%;
+      height: 10.5%;
+    }
+    .m {
+      margin-bottom: 15px;
+      width: 4.5%;
+      height: 8.5%;
+    }
+    .q58 {
+      margin-bottom: 30px;
+      width: 4%;
+      height: 4%;
+    }
+  }
+  .loc_2 {
+    text-align: center;
+    padding-bottom: 60px;
+    h2 {
+      margin-left: -61%;
+      font-size: 24px;
+      padding-bottom: 15px;
+    }
+    img {
+      margin-right: 20px;
+      width: 25%;
+      height: 30%
+    }
+    h3 {
+      font-size: 22px;
+      padding-top: 20px;
+    }
+    .lirr {
+      margin-bottom: 10px;
+      width: 19%;
+      height: 9%;
+    }
+    .q12 {
+      margin-bottom: 20px;
+      width: 4%;
+      height: 4%;
+    }
+    .q13 {
+      margin-bottom: 20px;
+      width: 4%;
+      height: 4%;
+    }
+    .q27 {
+      margin-bottom: 20px;
+      width: 4%;
+      height: 4%;
+    }
+  }
+  .loc_3 {
+    text-align: center;
+    padding-bottom: 60px;
+    h2 {
+      margin-left: -61%;
+      font-size: 24px;
+      padding-bottom: 15px;
+    }
+    img {
+      margin-right: 20px;
+      width: 25%;
+      height: 30%
+    }
+    h3 {
+      font-size: 22px;
+      padding-top: 20px;
+    }
+    .seven {
+      margin-bottom: 10px;
+      width: 4.5%;
+      height: 9%;
+    }
+    .q44 {
+      margin-bottom: 25px;
+      width: 8%;
+      height: 4.5%;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
