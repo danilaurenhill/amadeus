@@ -10,9 +10,9 @@
     position: relative;
     display: inline-block;
     z-index: 2;
-    left: 6.3%;
+    left: 5.3%;
     top: -214px;
-    width: 6%;
+    width: 5%;
     height: 499px;
     background-color: black;
     opacity: 0.6;
@@ -35,9 +35,9 @@
     z-index: 2;
     display: inline-block;
     position: relative;
-    right: 6.2%;
-    top: -212px;
-    width: 6%;
+    right: 5.2%;
+    top: -215px;
+    width: 5%;
     height: 499px;
     background-color: black;
     opacity: 0.5;
@@ -53,6 +53,12 @@
 }
 h3{
   padding-top: 630px;
+  font-weight: 700;
+  font-size: 26px;
+  color: $red;
+  border-bottom: 3px double;
+  line-height: 1.7em;
+  width: 180px;
 }
 h4 {
   padding-top: 30px;
@@ -68,6 +74,7 @@ h4 {
     height: 400px;
     float: left;
     border-style: ridge;
+    border-color: #696969;
     margin-right: 20px;
     margin-left: 14%;
     .photo {
@@ -80,11 +87,21 @@ h4 {
     h2 {
       font-size: 22px;
       padding-left: 20px;
+      color: #C0C0C0;
+    }
+    h3{
+      padding-top: 0px;
+      font-size: 24px;
+      color: $red;
+      border-bottom: none;
+      line-height: nonel;
+      width: 280px;
     }
     p {
-      padding-left: 28px;
+      padding-left: 4px;
       text-align: justify;
       width: 90%;
+      color: #808080;
     }
   }
   .vids {
@@ -92,6 +109,7 @@ h4 {
     height: 400px;
     float: left;
     border-style: ridge;
+    border-color: #696969;
     margin-right: 20px;
     .photo {
       border-style: groove;
@@ -103,11 +121,21 @@ h4 {
     h2 {
       font-size: 22px;
       padding-left: 20px;
+      color: #C0C0C0;
+    }
+    h3{
+      padding-top: 0px;
+      font-size: 24px;
+      color: $red;
+      border-bottom: none;
+      line-height: nonel;
+      width: 280px;
     }
     p {
-      padding-left: 28px;
+      padding-left: 4px;
       text-align: justify;
       width: 90%;
+      color: #808080;
     }
   }
   .news {
@@ -115,6 +143,7 @@ h4 {
     height: 400px;
     float: left;
     border-style: ridge;
+    border-color: #696969;
     margin-right: 20px;
     .photo {
       border-style: groove;
@@ -126,11 +155,21 @@ h4 {
     h2 {
       font-size: 22px;
       padding-left: 20px;
+      color: #C0C0C0;
+    }
+    h3{
+      padding-top: 0px;
+      font-size: 24px;
+      color: $red;
+      border-bottom: none;
+      line-height: nonel;
+      width: 280px;
     }
     p {
-      padding-left: 28px;
+      padding-left: 4px;
       text-align: justify;
       width: 90%;
+      color: #808080;
     }
   }
 }
@@ -142,7 +181,7 @@ h4 {
   width: 100%;
   .loc_1 {
     position: relative;
-    top: 20px;
+    top: 37px;
     width: 33%;
     display: inline-block;
     text-align: center;
@@ -151,15 +190,21 @@ h4 {
       text-align: center;
       font-size: 23px;
       padding-bottom: 15px;
+      color: $darkgray;
     }
     .pic {
       width: 55%;
-      height: 38%;
+      height: 37.5%;
       border-radius: 50%;
     }
     h3 {
+      padding-left: 15px;
       font-size: 20px;
-      padding-top: 20px;
+      padding-top: 10px;
+      color: lightgray;
+      border-bottom: none;
+      line-height: nonel;
+      width: 280px;
     }
     .r {
       margin-bottom: 10px;
@@ -180,7 +225,7 @@ h4 {
   }
   .loc_2 {
     position: relative;
-    top: 11px;
+    top: 32px;
     width: 33%;
     display: inline-block;
     text-align: center;
@@ -189,6 +234,7 @@ h4 {
       text-align: center;
       font-size: 23px;
       padding-bottom: 15px;
+      color: $darkgray;
     }
     .pic {
       width: 55%;
@@ -197,7 +243,11 @@ h4 {
     }
     h3 {
       font-size: 20px;
-      padding-top: 20px;
+      padding-top: 10px;
+      color: lightgray;
+      border-bottom: none;
+      line-height: nonel;
+      width: 280px;
     }
     .lirr {
       margin-bottom: 10px;
@@ -226,7 +276,7 @@ h4 {
   }
   .loc_3 {
     position: relative;
-    top: 8px;
+    top: 28px;
     width: 33%;
     display: inline-block;
     text-align: center;
@@ -235,6 +285,7 @@ h4 {
       text-align: center;
       font-size: 23px;
       padding-bottom: 15px;
+      color: $darkgray;
     }
     .pic {
       width: 55%;
@@ -243,7 +294,11 @@ h4 {
     }
     h3 {
       font-size: 20px;
-      padding-top: 20px;
+      padding-top: 10px;
+      color: lightgray;
+      border-bottom: none;
+      line-height: nonel;
+      width: 380px;
     }
     .seven {
       margin-bottom: 10px;

@@ -5,13 +5,14 @@ html {
   box-sizing: inherit; }
 
 body {
-  margin: 0; }
+  margin: 0;
+  background-color: black; }
 
 h1 {
   font-family: Garamond, "Times New Roman", Times, serif;
-  padding-top: 20px;
   padding-left: 20px;
-  color: gray; }
+  padding-top: 10px;
+  color: #CB2222; }
 
 h2 {
   font-family: Garamond, "Times New Roman", Times, serif; }
@@ -20,7 +21,8 @@ h3 {
   font-family: Garamond, "Times New Roman", Times, serif; }
 
 h4 {
-  font-family: Garamond, "Times New Roman", Times, serif; }
+  font-family: Garamond, "Times New Roman", Times, serif;
+  color: #C0C0C0; }
 
 p {
   font-family: Garamond, "Times New Roman", Times, serif; }
@@ -220,9 +222,9 @@ a {
       position: relative;
       display: inline-block;
       z-index: 2;
-      left: 6.3%;
+      left: 5.3%;
       top: -214px;
-      width: 6%;
+      width: 5%;
       height: 499px;
       background-color: black;
       opacity: 0.6; }
@@ -241,9 +243,9 @@ a {
       z-index: 2;
       display: inline-block;
       position: relative;
-      right: 6.2%;
-      top: -212px;
-      width: 6%;
+      right: 5.2%;
+      top: -215px;
+      width: 5%;
       height: 499px;
       background-color: black;
       opacity: 0.5; }
@@ -255,7 +257,13 @@ a {
         color: red; }
 
   h3 {
-    padding-top: 630px; }
+    padding-top: 630px;
+    font-weight: 700;
+    font-size: 26px;
+    color: #CB2222;
+    border-bottom: 3px double;
+    line-height: 1.7em;
+    width: 180px; }
 
   h4 {
     padding-top: 30px;
@@ -271,6 +279,7 @@ a {
       height: 400px;
       float: left;
       border-style: ridge;
+      border-color: #696969;
       margin-right: 20px;
       margin-left: 14%; }
       .extras .pics .photo {
@@ -281,16 +290,26 @@ a {
         width: 60%; }
       .extras .pics h2 {
         font-size: 22px;
-        padding-left: 20px; }
+        padding-left: 20px;
+        color: #C0C0C0; }
+      .extras .pics h3 {
+        padding-top: 0px;
+        font-size: 24px;
+        color: #CB2222;
+        border-bottom: none;
+        line-height: nonel;
+        width: 280px; }
       .extras .pics p {
-        padding-left: 28px;
+        padding-left: 4px;
         text-align: justify;
-        width: 90%; }
+        width: 90%;
+        color: #808080; }
     .extras .vids {
       width: 23%;
       height: 400px;
       float: left;
       border-style: ridge;
+      border-color: #696969;
       margin-right: 20px; }
       .extras .vids .photo {
         border-style: groove;
@@ -300,16 +319,26 @@ a {
         width: 60%; }
       .extras .vids h2 {
         font-size: 22px;
-        padding-left: 20px; }
+        padding-left: 20px;
+        color: #C0C0C0; }
+      .extras .vids h3 {
+        padding-top: 0px;
+        font-size: 24px;
+        color: #CB2222;
+        border-bottom: none;
+        line-height: nonel;
+        width: 280px; }
       .extras .vids p {
-        padding-left: 28px;
+        padding-left: 4px;
         text-align: justify;
-        width: 90%; }
+        width: 90%;
+        color: #808080; }
     .extras .news {
       width: 23%;
       height: 400px;
       float: left;
       border-style: ridge;
+      border-color: #696969;
       margin-right: 20px; }
       .extras .news .photo {
         border-style: groove;
@@ -319,11 +348,20 @@ a {
         width: 60%; }
       .extras .news h2 {
         font-size: 22px;
-        padding-left: 20px; }
+        padding-left: 20px;
+        color: #C0C0C0; }
+      .extras .news h3 {
+        padding-top: 0px;
+        font-size: 24px;
+        color: #CB2222;
+        border-bottom: none;
+        line-height: nonel;
+        width: 280px; }
       .extras .news p {
-        padding-left: 28px;
+        padding-left: 4px;
         text-align: justify;
-        width: 90%; }
+        width: 90%;
+        color: #808080; }
 
   /*locations page*/
   .locations {
@@ -331,7 +369,7 @@ a {
     width: 100%; }
     .locations .loc_1 {
       position: relative;
-      top: 20px;
+      top: 37px;
       width: 33%;
       display: inline-block;
       text-align: center;
@@ -339,14 +377,20 @@ a {
       .locations .loc_1 h2 {
         text-align: center;
         font-size: 23px;
-        padding-bottom: 15px; }
+        padding-bottom: 15px;
+        color: #808080; }
       .locations .loc_1 .pic {
         width: 55%;
-        height: 38%;
+        height: 37.5%;
         border-radius: 50%; }
       .locations .loc_1 h3 {
+        padding-left: 15px;
         font-size: 20px;
-        padding-top: 20px; }
+        padding-top: 10px;
+        color: lightgray;
+        border-bottom: none;
+        line-height: nonel;
+        width: 280px; }
       .locations .loc_1 .r {
         margin-bottom: 10px;
         width: 13%;
@@ -362,7 +406,7 @@ a {
         height: 4%; }
     .locations .loc_2 {
       position: relative;
-      top: 11px;
+      top: 32px;
       width: 33%;
       display: inline-block;
       text-align: center;
@@ -370,14 +414,19 @@ a {
       .locations .loc_2 h2 {
         text-align: center;
         font-size: 23px;
-        padding-bottom: 15px; }
+        padding-bottom: 15px;
+        color: #808080; }
       .locations .loc_2 .pic {
         width: 55%;
         height: 38%;
         border-radius: 50%; }
       .locations .loc_2 h3 {
         font-size: 20px;
-        padding-top: 20px; }
+        padding-top: 10px;
+        color: lightgray;
+        border-bottom: none;
+        line-height: nonel;
+        width: 280px; }
       .locations .loc_2 .lirr {
         margin-bottom: 10px;
         width: 40%;
@@ -400,7 +449,7 @@ a {
         height: 3%; }
     .locations .loc_3 {
       position: relative;
-      top: 8px;
+      top: 28px;
       width: 33%;
       display: inline-block;
       text-align: center;
@@ -408,14 +457,19 @@ a {
       .locations .loc_3 h2 {
         text-align: center;
         font-size: 23px;
-        padding-bottom: 15px; }
+        padding-bottom: 15px;
+        color: #808080; }
       .locations .loc_3 .pic {
         width: 55%;
         height: 38%;
         border-radius: 50%; }
       .locations .loc_3 h3 {
         font-size: 20px;
-        padding-top: 20px; }
+        padding-top: 10px;
+        color: lightgray;
+        border-bottom: none;
+        line-height: nonel;
+        width: 380px; }
       .locations .loc_3 .seven {
         margin-bottom: 10px;
         width: 10%;
