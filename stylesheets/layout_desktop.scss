@@ -1,16 +1,68 @@
 .slideshow {
+  position: absolute;
   margin-top: 50px;
   text-align: center;
+  width: 100%;
+  .glyphicon {
+    top: 222px;
+  }
+  .left-bar {
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+    left: 6.3%;
+    top: -214px;
+    width: 6%;
+    height: 499px;
+    background-color: black;
+    opacity: 0.6;
+    a {
+      color: white;
+      font-size: 40px;
+    }
+    a:hover {
+      color: red;
+    }
+  }
   .pic {
+    z-index: 1;
+    position: relative;
+    display: inline-block;
     width: 80%;
     height: 70%;
   }
+  .right-bar {
+    z-index: 2;
+    display: inline-block;
+    position: relative;
+    right: 6.2%;
+    top: -212px;
+    width: 6%;
+    height: 499px;
+    background-color: black;
+    opacity: 0.5;
+    a {
+      z-index: 3;
+      color: white;
+      font-size: 40px;
+    }
+    a:hover {
+      color: red;
+    }
+  }
 }
-
+h3{
+  padding-top: 630px;
+}
+h4 {
+  padding-top: 30px;
+  width: 80%;
+  text-align: justify;
+}
 .extras {
   width: 100%;
   height: 600px;
-  padding-top: 50px;
+  padding-top: 80px;
   .pics {
     width: 23%;
     height: 400px;
@@ -102,7 +154,7 @@
     }
     .pic {
       width: 55%;
-      height: 35%;
+      height: 38%;
       border-radius: 50%;
     }
     h3 {
@@ -140,7 +192,7 @@
     }
     .pic {
       width: 55%;
-      height: 35%;
+      height: 38%;
       border-radius: 50%;
     }
     h3 {
@@ -149,12 +201,13 @@
     }
     .lirr {
       margin-bottom: 10px;
-      width: 30%;
+      width: 40%;
       height: 9%;
     }
     .q12 {
       margin-bottom: 28px;
       padding-left: 8px;
+      margin-left: -15px;
       width: 10%;
       height: 3%;
     }
@@ -173,7 +226,7 @@
   }
   .loc_3 {
     position: relative;
-    top: 3px;
+    top: 8px;
     width: 33%;
     display: inline-block;
     text-align: center;
@@ -185,7 +238,7 @@
     }
     .pic {
       width: 55%;
-      height: 35%;
+      height: 38%;
       border-radius: 50%;
     }
     h3 {

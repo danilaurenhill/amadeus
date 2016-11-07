@@ -19,6 +19,9 @@ h2 {
 h3 {
   font-family: Garamond, "Times New Roman", Times, serif; }
 
+h4 {
+  font-family: Garamond, "Times New Roman", Times, serif; }
+
 p {
   font-family: Garamond, "Times New Roman", Times, serif; }
 
@@ -207,16 +210,62 @@ a {
     text-align: left; } }
 @media screen and (min-width: 750px) {
   .slideshow {
+    position: absolute;
     margin-top: 50px;
-    text-align: center; }
+    text-align: center;
+    width: 100%; }
+    .slideshow .glyphicon {
+      top: 222px; }
+    .slideshow .left-bar {
+      position: relative;
+      display: inline-block;
+      z-index: 2;
+      left: 6.3%;
+      top: -214px;
+      width: 6%;
+      height: 499px;
+      background-color: black;
+      opacity: 0.6; }
+      .slideshow .left-bar a {
+        color: white;
+        font-size: 40px; }
+      .slideshow .left-bar a:hover {
+        color: red; }
     .slideshow .pic {
+      z-index: 1;
+      position: relative;
+      display: inline-block;
       width: 80%;
       height: 70%; }
+    .slideshow .right-bar {
+      z-index: 2;
+      display: inline-block;
+      position: relative;
+      right: 6.2%;
+      top: -212px;
+      width: 6%;
+      height: 499px;
+      background-color: black;
+      opacity: 0.5; }
+      .slideshow .right-bar a {
+        z-index: 3;
+        color: white;
+        font-size: 40px; }
+      .slideshow .right-bar a:hover {
+        color: red; }
+
+  h3 {
+    padding-top: 630px; }
+
+  h4 {
+    padding-top: 30px;
+    width: 80%;
+    text-align: justify; }
 
   .extras {
     width: 100%;
     height: 600px;
-    padding-top: 50px; }
+    padding-top: 80px; }
     .extras .pics {
       width: 23%;
       height: 400px;
@@ -293,7 +342,7 @@ a {
         padding-bottom: 15px; }
       .locations .loc_1 .pic {
         width: 55%;
-        height: 35%;
+        height: 38%;
         border-radius: 50%; }
       .locations .loc_1 h3 {
         font-size: 20px;
@@ -324,18 +373,19 @@ a {
         padding-bottom: 15px; }
       .locations .loc_2 .pic {
         width: 55%;
-        height: 35%;
+        height: 38%;
         border-radius: 50%; }
       .locations .loc_2 h3 {
         font-size: 20px;
         padding-top: 20px; }
       .locations .loc_2 .lirr {
         margin-bottom: 10px;
-        width: 30%;
+        width: 40%;
         height: 9%; }
       .locations .loc_2 .q12 {
         margin-bottom: 28px;
         padding-left: 8px;
+        margin-left: -15px;
         width: 10%;
         height: 3%; }
       .locations .loc_2 .q13 {
@@ -350,7 +400,7 @@ a {
         height: 3%; }
     .locations .loc_3 {
       position: relative;
-      top: 3px;
+      top: 8px;
       width: 33%;
       display: inline-block;
       text-align: center;
@@ -361,7 +411,7 @@ a {
         padding-bottom: 15px; }
       .locations .loc_3 .pic {
         width: 55%;
-        height: 35%;
+        height: 38%;
         border-radius: 50%; }
       .locations .loc_3 h3 {
         font-size: 20px;
