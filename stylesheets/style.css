@@ -278,84 +278,102 @@ a {
 
   /*locations page*/
   .locations {
-    margin: 25px; }
+    position: absolute;
+    width: 100%; }
     .locations .loc_1 {
+      position: relative;
+      top: 20px;
+      width: 33%;
+      display: inline-block;
       text-align: center;
-      padding-bottom: 60px; }
+      padding-bottom: 10px; }
       .locations .loc_1 h2 {
-        margin-left: -61%;
-        font-size: 24px;
+        text-align: center;
+        font-size: 23px;
         padding-bottom: 15px; }
-      .locations .loc_1 img {
-        margin-right: 20px;
-        width: 25%;
-        height: 30%; }
+      .locations .loc_1 .pic {
+        width: 55%;
+        height: 35%;
+        border-radius: 50%; }
       .locations .loc_1 h3 {
-        font-size: 22px;
+        font-size: 20px;
         padding-top: 20px; }
       .locations .loc_1 .r {
         margin-bottom: 10px;
-        width: 5.5%;
+        width: 13%;
         height: 10.5%; }
       .locations .loc_1 .m {
-        margin-bottom: 15px;
-        width: 4.5%;
-        height: 8.5%; }
+        margin-bottom: 20px;
+        width: 9.5%;
+        height: 7.8%; }
       .locations .loc_1 .q58 {
-        margin-bottom: 30px;
-        width: 4%;
+        margin-bottom: 32px;
+        padding-left: 8px;
+        width: 10%;
         height: 4%; }
     .locations .loc_2 {
+      position: relative;
+      top: 11px;
+      width: 33%;
+      display: inline-block;
       text-align: center;
-      padding-bottom: 60px; }
+      padding-bottom: 10px; }
       .locations .loc_2 h2 {
-        margin-left: -61%;
-        font-size: 24px;
+        text-align: center;
+        font-size: 23px;
         padding-bottom: 15px; }
-      .locations .loc_2 img {
-        margin-right: 20px;
-        width: 25%;
-        height: 30%; }
+      .locations .loc_2 .pic {
+        width: 55%;
+        height: 35%;
+        border-radius: 50%; }
       .locations .loc_2 h3 {
-        font-size: 22px;
+        font-size: 20px;
         padding-top: 20px; }
       .locations .loc_2 .lirr {
         margin-bottom: 10px;
-        width: 19%;
+        width: 30%;
         height: 9%; }
       .locations .loc_2 .q12 {
-        margin-bottom: 20px;
-        width: 4%;
-        height: 4%; }
+        margin-bottom: 28px;
+        padding-left: 8px;
+        width: 10%;
+        height: 3%; }
       .locations .loc_2 .q13 {
-        margin-bottom: 20px;
-        width: 4%;
-        height: 4%; }
+        margin-bottom: 28px;
+        padding-left: 8px;
+        width: 10%;
+        height: 3%; }
       .locations .loc_2 .q27 {
-        margin-bottom: 20px;
-        width: 4%;
-        height: 4%; }
+        margin-bottom: 28px;
+        padding-left: 8px;
+        width: 10%;
+        height: 3%; }
     .locations .loc_3 {
+      position: relative;
+      top: 3px;
+      width: 33%;
+      display: inline-block;
       text-align: center;
-      padding-bottom: 60px; }
+      padding-bottom: 10px; }
       .locations .loc_3 h2 {
-        margin-left: -61%;
-        font-size: 24px;
+        text-align: center;
+        font-size: 23px;
         padding-bottom: 15px; }
-      .locations .loc_3 img {
-        margin-right: 20px;
-        width: 25%;
-        height: 30%; }
+      .locations .loc_3 .pic {
+        width: 55%;
+        height: 35%;
+        border-radius: 50%; }
       .locations .loc_3 h3 {
-        font-size: 22px;
+        font-size: 20px;
         padding-top: 20px; }
       .locations .loc_3 .seven {
         margin-bottom: 10px;
-        width: 4.5%;
-        height: 9%; }
+        width: 10%;
+        height: 8%; }
       .locations .loc_3 .q44 {
         margin-bottom: 25px;
-        width: 8%;
-        height: 4.5%; } }
+        padding-left: 8px;
+        width: 17%;
+        height: 3.5%; } }
 
 /*# sourceMappingURL=style.css.map */
