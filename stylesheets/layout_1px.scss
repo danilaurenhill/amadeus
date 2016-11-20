@@ -90,3 +90,46 @@ h1 {
     }
   }
 }
+
+/*locations*/
+
+.programs {
+  h2 {
+    padding-top: 30px;
+    font-size: 30px;
+    color: $red;
+    border-bottom: 3px double;
+    line-height: 1.7em;
+    width: 180px;
+  }
+  .right-and-left{
+    width: 100%;
+    h3 {
+      padding-top: 20px;
+      color: $darkgray;
+      width: 80%;
+      margin-right: 20px;
+      border-bottom: none;
+    }
+    h4 {
+      padding-top: 10px;
+      padding-bottom: 30px;
+      text-align: justify;
+      width: 90%;
+      color: $lightgray;
+    }
+  }  
+}
+
+/*gallery*/
+.gallery {
+  position: absolute;
+  width: 100%;
+  img {
+    float:left;
+    position: relative;
+    width: 42%;
+    margin: 3.66%;
+    overflow:hidden;
+  }
+}
