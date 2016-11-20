@@ -354,7 +354,7 @@
 .gallery {
   position: absolute;
   width: 100%;
-  .row1 {
+  .rows {
     img {
       float:left;
       position: relative;
@@ -366,6 +366,21 @@
   }
 }
 
+
+.career {
+  position: absolute;
+  width: 100%;
+  h4 {
+    padding-top: 40px;
+    width: 1250px;
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 25px;
+    width: 1250px;
+    color: $red;
+  }
+}
 
 
 

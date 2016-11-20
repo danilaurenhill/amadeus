@@ -542,12 +542,24 @@ a {
   .gallery {
     position: absolute;
     width: 100%; }
-    .gallery .row1 img {
+    .gallery .rows img {
       float: left;
       position: relative;
       width: 26%;
       margin: 3.56%;
       background-color: #1E1E1E;
-      overflow: hidden; } }
+      overflow: hidden; }
+
+  .career {
+    position: absolute;
+    width: 100%; }
+    .career h4 {
+      padding-top: 40px;
+      width: 1250px;
+      font-size: 24px; }
+    .career h3 {
+      font-size: 25px;
+      width: 1250px;
+      color: #CB2222; } }
 
 /*# sourceMappingURL=style.css.map */
