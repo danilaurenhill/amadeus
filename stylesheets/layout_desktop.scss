@@ -373,7 +373,7 @@
   h4 {
     padding-top: 40px;
     width: 1250px;
-    font-size: 24px;
+    font-size: 21px;
   }
   h3 {
     font-size: 25px;
@@ -382,6 +382,38 @@
   }
 }
 
+
+.achievements {
+  position: absolute;
+  width: 100%;
+  .list2015 {
+    h3 {
+      color: #444;
+      padding-top: 30px;
+      padding-bottom: 40px;
+      margin-left: 10%;
+      font-size: 24px;
+    }
+    h4 {
+      float:left;
+      position: relative;
+      width: 47%;
+      margin-top: 10px;
+      padding-left: 150px;
+      overflow:hidden;
+      font-size: 18px;
+      margin-bottom: 40px;
+      text-align: justify;
+    }
+    h2 {
+      color: #444;
+      padding-bottom: 40px;
+      margin-top: 91%;
+      margin-left: 10%;
+      font-size: 24px;
+    }
+  }
+}
 
 
 
