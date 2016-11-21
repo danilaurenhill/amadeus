@@ -167,6 +167,123 @@ a {
         display: none; }
 
   /*locations*/
+  .locations {
+    position: absolute;
+    width: 100%; }
+    .locations .loc_1 {
+      position: relative;
+      top: 37px;
+      width: 100%;
+      display: inline-block;
+      text-align: center;
+      padding-bottom: 10px; }
+      .locations .loc_1 h2 {
+        text-align: center;
+        font-size: 26px;
+        font-weight: 700;
+        padding-bottom: 15px;
+        color: #808080; }
+      .locations .loc_1 .pic {
+        width: 55%;
+        height: 37.5%;
+        border-radius: 50%; }
+      .locations .loc_1 h3 {
+        padding-left: 15px;
+        font-size: 19px;
+        padding-top: 10px;
+        color: lightgray;
+        border-bottom: none;
+        line-height: nonel;
+        width: 280px; }
+      .locations .loc_1 .r {
+        margin-bottom: 20px;
+        width: 13%;
+        height: 10.5%; }
+      .locations .loc_1 .m {
+        margin-bottom: 20px;
+        width: 9.5%;
+        height: 7.8%; }
+      .locations .loc_1 .q58 {
+        margin-bottom: 20px;
+        padding-left: 8px;
+        width: 10%;
+        height: 4%; }
+    .locations .loc_2 {
+      position: relative;
+      top: 52px;
+      width: 100%;
+      display: inline-block;
+      text-align: center;
+      padding-bottom: 10px; }
+      .locations .loc_2 h2 {
+        text-align: center;
+        font-size: 26px;
+        padding-bottom: 15px;
+        color: #808080; }
+      .locations .loc_2 .pic {
+        width: 55%;
+        height: 38%;
+        border-radius: 50%; }
+      .locations .loc_2 h3 {
+        font-size: 19px;
+        padding-top: 10px;
+        color: lightgray;
+        border-bottom: none;
+        line-height: nonel;
+        width: 280px; }
+      .locations .loc_2 .lirr {
+        margin-bottom: 10px;
+        width: 40%;
+        height: 9%; }
+      .locations .loc_2 .q12 {
+        margin-bottom: 28px;
+        padding-left: 8px;
+        margin-left: -15px;
+        width: 10%;
+        height: 3%; }
+      .locations .loc_2 .q13 {
+        margin-bottom: 28px;
+        padding-left: 8px;
+        width: 10%;
+        height: 3%; }
+      .locations .loc_2 .q27 {
+        margin-bottom: 28px;
+        padding-left: 8px;
+        width: 10%;
+        height: 3%; }
+    .locations .loc_3 {
+      position: relative;
+      top: 72px;
+      width: 100%;
+      display: inline-block;
+      text-align: center;
+      padding-bottom: 10px; }
+      .locations .loc_3 h2 {
+        text-align: center;
+        font-size: 26px;
+        padding-bottom: 15px;
+        color: #808080; }
+      .locations .loc_3 .pic {
+        width: 55%;
+        height: 38%;
+        border-radius: 50%; }
+      .locations .loc_3 h3 {
+        font-size: 19px;
+        padding-top: 10px;
+        color: lightgray;
+        border-bottom: none;
+        line-height: nonel;
+        width: 380px; }
+      .locations .loc_3 .seven {
+        margin-bottom: 10px;
+        width: 10%;
+        height: 8%; }
+      .locations .loc_3 .q44 {
+        margin-bottom: 25px;
+        padding-left: 8px;
+        width: 17%;
+        height: 3.5%; }
+
   .programs h2 {
     padding-top: 30px;
     font-size: 30px;
