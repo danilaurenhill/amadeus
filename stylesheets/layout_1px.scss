@@ -149,3 +149,36 @@ h1 {
     overflow:hidden;
   }
 }
+
+/*achievements*/
+.achievements {
+  position: absolute;
+  width: 100%;
+  .list2015 {
+    h3 {
+      color: #444;
+      padding-top: 30px;
+      padding-bottom: 40px;
+      font-size: 24px;
+      text-align: center;
+    }
+    h4 {
+      float:left;
+      position: relative;
+      width: 95%;
+      margin-top: 10px;
+      padding-left: 20px;
+      overflow: hidden;
+      font-size: 18px;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+    h2 {
+      color: #444;
+      padding-bottom: 40px;
+      margin-top: 91%;
+      font-size: 24px;
+      text-align: center;
+    }
+  }
+}
