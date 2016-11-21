@@ -121,6 +121,22 @@ h1 {
   }  
 }
 
+/*career*/
+.career {
+  position: absolute;
+  width: 100%;
+  h4 {
+    padding-top: 40px;
+    width: 85%;
+    font-size: 21px;
+  }
+  h3 {
+    font-size: 25px;
+    width: 85%;
+    color: $red;
+  }
+}
+
 /*gallery*/
 .gallery {
   position: absolute;

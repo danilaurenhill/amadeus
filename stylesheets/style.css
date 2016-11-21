@@ -189,6 +189,19 @@ a {
       width: 90%;
       color: #C0C0C0; }
 
+  /*career*/
+  .career {
+    position: absolute;
+    width: 100%; }
+    .career h4 {
+      padding-top: 40px;
+      width: 85%;
+      font-size: 21px; }
+    .career h3 {
+      font-size: 25px;
+      width: 85%;
+      color: #CB2222; }
+
   /*gallery*/
   .gallery {
     position: absolute;
@@ -558,11 +571,11 @@ a {
     width: 100%; }
     .career h4 {
       padding-top: 40px;
-      width: 1250px;
+      width: 85%;
       font-size: 21px; }
     .career h3 {
       font-size: 25px;
-      width: 1250px;
+      width: 85%;
       color: #CB2222; }
 
   .achievements {
