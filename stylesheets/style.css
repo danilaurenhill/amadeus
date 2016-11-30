@@ -184,8 +184,8 @@ a {
         padding-bottom: 15px;
         color: #808080; }
       .locations .loc_1 .pic {
-        width: 55%;
-        height: 37.5%;
+        width: 53%;
+        height: 30.5%;
         border-radius: 50%; }
       .locations .loc_1 h3 {
         padding-left: 15px;
@@ -221,8 +221,8 @@ a {
         padding-bottom: 15px;
         color: #808080; }
       .locations .loc_2 .pic {
-        width: 55%;
-        height: 38%;
+        width: 53%;
+        height: 30.5%;
         border-radius: 50%; }
       .locations .loc_2 h3 {
         font-size: 19px;
@@ -264,8 +264,8 @@ a {
         padding-bottom: 15px;
         color: #808080; }
       .locations .loc_3 .pic {
-        width: 55%;
-        height: 38%;
+        width: 53%;
+        height: 30.5%;
         border-radius: 50%; }
       .locations .loc_3 h3 {
         font-size: 19px;
@@ -706,6 +706,7 @@ a {
       float: left;
       position: relative;
       width: 26%;
+      height: 46%;
       margin: 3.56%;
       background-color: #1E1E1E;
       overflow: hidden; }
