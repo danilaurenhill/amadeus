@@ -284,27 +284,42 @@ a {
         width: 17%;
         height: 3.5%; }
 
-  .programs h2 {
-    padding-top: 30px;
-    font-size: 30px;
-    color: #CB2222;
-    border-bottom: 3px double;
-    line-height: 1.7em;
-    width: 180px; }
-  .programs .right-and-left {
+  .slideshow-program {
+    position: absolute;
+    margin-top: -20px;
+    text-align: center;
     width: 100%; }
-    .programs .right-and-left h3 {
-      padding-top: 20px;
-      color: #808080;
-      width: 80%;
-      margin-right: 20px;
-      border-bottom: none; }
-    .programs .right-and-left h4 {
-      padding-top: 10px;
-      padding-bottom: 30px;
+    .slideshow-program .pic {
+      position: relative;
+      z-index: 1;
+      display: inline-block;
+      width: 100%;
+      height: 35%;
+      /*opacity: 0.9;*/ }
+
+  .programs {
+    width: 100%;
+    position: absolute; }
+    .programs h3 {
+      position: relative;
+      top: 260px;
+      left: 24px;
+      width: 90%;
+      font-size: 21px; }
+    .programs h2 {
+      position: relative;
+      top: 270px;
+      text-align: center;
+      color: #CB2222;
+      font-size: 23px; }
+    .programs h4 {
+      margin-top: -50px;
+      position: relative;
+      top: 330px;
       text-align: justify;
       width: 90%;
-      color: #C0C0C0; }
+      color: black;
+      font-size: 19px; }
 
   /*career*/
   .career {
@@ -799,7 +814,7 @@ a {
     position: absolute;
     margin-top: -20px;
     text-align: center;
-    width: 100%; }
+    width: 102.5%; }
     .slideshow-program .pic {
       position: relative;
       z-index: 1;
