@@ -393,18 +393,59 @@
   }
 }
 
+.slideshow-gallery {
+  position: absolute;
+  margin-top: -20px;
+  text-align: center;
+  width: 100%;
+  .pic {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    width: 100%;
+    height: 60%;
+    /*opacity: 0.9;*/
+  }
+}
 .gallery {
   position: absolute;
   width: 100%;
   .rows {
     img {
+      top: 10px;
       float:left;
       position: relative;
-      width: 26%;
-      height: 46%;
-      margin: 3.56%;
-      background-color:#1E1E1E;
+      width: 22%;
+      height: 42%;
+      margin: 5.56%;
+      background-color: $darkgray;
       overflow:hidden;
+      border-radius: 50%;
+    }
+  }
+  .word-rows {
+    h3{
+      top: -915px;
+      float:left;
+      width: 22%;
+      padding-bottom: 265px;
+      padding-left: 40px;
+      position: relative;
+      margin: 5.56%;
+      overflow:hidden;
+    }
+  }
+  .intro-rows {
+    h4 {
+      top: -2195px;
+      float:left;
+      width: 22%;
+      padding-bottom: 275px;
+      padding-left: 100px;
+      position: relative;
+      margin: 5.56%;
+      overflow:hidden;
+      color: black;
     }
   }
 }
