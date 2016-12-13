@@ -894,8 +894,10 @@ a {
   .career {
     position: absolute;
     width: 100%; }
+    .career h1 {
+      padding-top: 430px; }
     .career h4 {
-      padding-top: 40px;
+      padding-top: 3%;
       width: 85%;
       font-size: 21px; }
     .career h3 {
@@ -907,11 +909,11 @@ a {
     position: absolute;
     width: 100%; }
     .achievements .list2015 h3 {
-      color: #444;
-      padding-top: 30px;
+      color: #CB2222;
+      padding-top: 70px;
       padding-bottom: 40px;
       margin-left: 10%;
-      font-size: 24px; }
+      font-size: 28px; }
     .achievements .list2015 h4 {
       float: left;
       position: relative;
@@ -919,13 +921,15 @@ a {
       margin-top: 10px;
       padding-left: 150px;
       overflow: hidden;
-      font-size: 18px;
+      font-size: 22px;
       margin-bottom: 40px;
-      text-align: justify; }
+      text-align: justify;
+      color: #808080; }
     .achievements .list2015 h2 {
-      color: #444;
+      color: #CB2222;
+      padding-top: 140px;
       padding-bottom: 40px;
-      margin-top: 91%;
+      margin-top: 92%;
       margin-left: 10%;
       font-size: 24px; } }
 

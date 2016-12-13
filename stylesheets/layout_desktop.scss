@@ -455,8 +455,11 @@
 .career {
   position: absolute;
   width: 100%;
+  h1 {
+    padding-top: 430px;
+  }
   h4 {
-    padding-top: 40px;
+    padding-top: 3%;
     width: 85%;
     font-size: 21px;
   }
@@ -473,11 +476,11 @@
   width: 100%;
   .list2015 {
     h3 {
-      color: #444;
-      padding-top: 30px;
+      color: $red;
+      padding-top: 70px;
       padding-bottom: 40px;
       margin-left: 10%;
-      font-size: 24px;
+      font-size: 28px;
     }
     h4 {
       float:left;
@@ -486,14 +489,16 @@
       margin-top: 10px;
       padding-left: 150px;
       overflow:hidden;
-      font-size: 18px;
+      font-size: 22px;
       margin-bottom: 40px;
       text-align: justify;
+      color: $darkgray;
     }
     h2 {
-      color: #444;
+      color: $red;
+      padding-top: 140px;
       padding-bottom: 40px;
-      margin-top: 91%;
+      margin-top: 92%;
       margin-left: 10%;
       font-size: 24px;
     }
