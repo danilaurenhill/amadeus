@@ -423,29 +423,30 @@
       border-radius: 50%;
     }
   }
+  .intro-rows {
+    h4 {
+      top: -2365px;
+      float:left;
+      width: 22%;
+      padding-bottom: 252px;
+      padding-left: 120px;
+      position: relative;
+      margin: 5.56%;
+      overflow:hidden;
+      font-size: 21px;
+      color: $red;
+    }
+  }
   .word-rows {
     h3{
-      top: -915px;
+      top: -985px;
       float:left;
       width: 22%;
       padding-bottom: 265px;
-      padding-left: 40px;
+      padding-left: 65px;
       position: relative;
       margin: 5.56%;
       overflow:hidden;
-    }
-  }
-  .intro-rows {
-    h4 {
-      top: -2195px;
-      float:left;
-      width: 22%;
-      padding-bottom: 275px;
-      padding-left: 100px;
-      position: relative;
-      margin: 5.56%;
-      overflow:hidden;
-      color: black;
     }
   }
 }

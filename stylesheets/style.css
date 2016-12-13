@@ -870,25 +870,26 @@ a {
       background-color: #808080;
       overflow: hidden;
       border-radius: 50%; }
-    .gallery .word-rows h3 {
-      top: -915px;
-      float: left;
-      width: 22%;
-      padding-bottom: 265px;
-      padding-left: 40px;
-      position: relative;
-      margin: 5.56%;
-      overflow: hidden; }
     .gallery .intro-rows h4 {
-      top: -2195px;
+      top: -2365px;
       float: left;
       width: 22%;
-      padding-bottom: 275px;
-      padding-left: 100px;
+      padding-bottom: 252px;
+      padding-left: 120px;
       position: relative;
       margin: 5.56%;
       overflow: hidden;
-      color: black; }
+      font-size: 21px;
+      color: #CB2222; }
+    .gallery .word-rows h3 {
+      top: -985px;
+      float: left;
+      width: 22%;
+      padding-bottom: 265px;
+      padding-left: 65px;
+      position: relative;
+      margin: 5.56%;
+      overflow: hidden; }
 
   .career {
     position: absolute;
