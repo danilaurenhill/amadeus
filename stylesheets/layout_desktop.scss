@@ -411,47 +411,28 @@
   position: absolute;
   width: 100%;
   .rows {
-    img {
-      top: 10px;
-      float:left;
-      position: relative;
-      width: 22%;
-      height: 42%;
-      margin: 5.56%;
-      background-color: $darkgray;
-      overflow:hidden;
-      border-radius: 50%;
-    }
-  }
-  .intro-rows {
-    h4 {
-      top: -2365px;
-      float:left;
-      width: 22%;
-      padding-bottom: 252px;
-      padding-left: 120px;
-      position: relative;
-      margin: 5.56%;
-      overflow:hidden;
-      font-size: 21px;
-      color: $red;
-    }
-  }
-  .word-rows {
-    h3{
-      top: -985px;
-      float:left;
-      width: 22%;
-      padding-bottom: 265px;
-      padding-left: 65px;
-      position: relative;
-      margin: 5.56%;
-      overflow:hidden;
+    ul {
+        top: 10px;
+        float:left;
+        position: relative;
+        margin: 5.56%;
+        overflow:hidden;
+        width: 22%;
+        height: 42%;
+      img {
+        border-radius: 50%;
+        width: 100%;
+        height: 42%;
+      }
+      h3 {
+        padding-left: 42px;
+      }
+      h4 {
+        padding-left: 100px;
+      }
     }
   }
 }
-
-
 .career {
   position: absolute;
   width: 100%;
@@ -469,7 +450,6 @@
     color: $red;
   }
 }
-
 
 .achievements {
   position: absolute;
