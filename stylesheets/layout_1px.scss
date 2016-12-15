@@ -5,11 +5,58 @@ h1 {
 }
 
 .slideshow {
-  margin-top: 30px;
+  position: absolute;
+  margin-top: -64px;
   text-align: center;
+  width: 100%;
   .pic {
+    width: 100%;
+    height: 40%;
+  }
+  h1 {
+    position: relative;
+    z-index: 4;
+    color: white;
+    top: -200px;
+    font-size: 25px;
+  }
+  .myButton {
+    position: relative;
+    z-index: 4;
+    background-color:#cb2222;
+    border-radius:28px;
+    display:inline-block;
+    color:#ffffff;
+    font-family: $font;
+    font-weight: thin;
+    font-size: 15px;
+    padding: 7px 17px;
+    margin-top: -195px;
+    margin-left: 15px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+  }
+  .myButton:hover {
+    background-color:#cb2222;
+  }
+  .myButton:active {
+    position:relative;
+    top:1px;
+  }
+}
+.about {
+  h3{
+    padding-top: 240px;
+    font-weight: 700;
+    font-size: 26px;
+    color: $red;
+    width: 180px;
+  }
+  h4 {
+    padding-top: 30px;
     width: 90%;
-    height: 35%;
+    text-align: justify;
+    color: $darkgray;
   }
 }
 
@@ -21,6 +68,7 @@ h1 {
     width: 70%;
     height: 200px;
     border-style: ridge;
+    border-color: white;
     margin-bottom: 20px;
     margin-left: 15%;
     .photo {
@@ -32,7 +80,7 @@ h1 {
     }
     h2 {
       font-size: 19px;
-      padding-left: 20px;
+      padding-left: 98px;
     }
     h3 {
       font-size: 17px;
@@ -46,6 +94,7 @@ h1 {
     height: 200px;
     border-style: ridge;
     margin-bottom: 20px;
+    border-color: white;
     margin-left: 15%;
     .photo {
       border-style: groove;
@@ -56,7 +105,7 @@ h1 {
     }
     h2 {
       font-size: 19px;
-      padding-left: 20px;
+      padding-left: 98px;
     }
     h3 {
       font-size: 17px;
@@ -69,6 +118,7 @@ h1 {
     width: 70%;
     height: 200px;
     border-style: ridge;
+    border-color: white;
     margin-bottom: 50px;
     margin-left: 15%;
     .photo {
@@ -80,7 +130,7 @@ h1 {
     }
     h2 {
       font-size: 19px;
-      padding-left: 20px;
+      padding-left: 98px;
     }
     h3 {
       font-size: 17px;
@@ -231,20 +281,6 @@ h1 {
   }
 }
 
-.slideshow-program {
-  position: absolute;
-  margin-top: -20px;
-  text-align: center;
-  width: 100%;
-  .pic {
-    position: relative;
-    z-index: 1;
-    display: inline-block;
-    width: 100%;
-    height: 35%;
-    /*opacity: 0.9;*/
-  }
-}
 .programs {
   width: 100%;
   position: absolute;
@@ -288,17 +324,48 @@ h1 {
     color: $red;
   }
 }
-
+.slideshow-gallery {
+  position: absolute;
+  margin-top: -20px;
+  text-align: center;
+  width: 100%;
+  .pic {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    width: 100%;
+    height: 40%;
+    /*opacity: 0.9;*/
+  }
+}
 /*gallery*/
 .gallery {
   position: absolute;
   width: 100%;
-  img {
-    float:left;
-    position: relative;
-    width: 42%;
-    margin: 3.66%;
-    overflow:hidden;
+  .rows {
+    ul {
+        top: 10px;
+        float:left;
+        position: relative;
+        margin: 0.06%;
+        overflow:hidden;
+        width: 44.9%;
+        height: 42%;
+      img {
+        border-radius: 50%;
+        width: 100%;
+        height: 22%;
+      }
+      h4 {
+        padding-left: 35px;
+      }
+      h3 {
+        width: 600px;
+        font-size: 18px;
+        padding-left: -10px;
+        padding-bottom: 40px;
+      }
+    }
   }
 }
 
