@@ -437,10 +437,63 @@
   }
 }
 
+/*carnegie page*/
 
-
-
-
+.carnegie-about {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  h2 {
+    position: relative;
+    top: 440px;
+    color: $red;
+    margin-left: 15%; 
+    margin-right: 15%;
+  }
+  h3 {
+    position: relative;
+    top: 470px;
+    font-size: 22px;
+    color: black;
+    margin-left: 60px; 
+    margin-right: 60px;
+    /*width: 70%;*/
+    /*text-align: center;*/
+  }
+}
+.carnegie-grid {
+  position: absolute;
+  width: 100%;
+  ul {
+      top: 740px;
+      float:left;
+      position: relative;
+      margin: 2%;
+      width: 20.5%;
+      height: 42%;
+      h2 {
+        color: $red;
+        text-align: center;
+      }
+      h4 {
+        color: $darkgray;
+      }
+    }
+  a {
+    position: relative;
+    top: 1000px;
+    right: 27%;
+    background-color: $red; 
+    color: white; 
+    padding: 12px 36px;
+    font-size: 22px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+}
 
 
 
