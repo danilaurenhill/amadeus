@@ -442,66 +442,68 @@
 }
 
 /*carnegie page*/
-
-.carnegie-about {
+.wrapper {
+  margin: 0 auto;
   position: absolute;
   width: 100%;
   text-align: center;
-  h2 {
-    position: relative;
-    top: 440px;
-    color: $red;
-    margin-left: 15%; 
-    margin-right: 15%;
-  }
-  h3 {
-    position: relative;
-    top: 470px;
-    font-size: 22px;
-    color: black;
-    margin-left: 60px; 
-    margin-right: 60px;
-    /*width: 70%;*/
-    /*text-align: center;*/
-  }
-}
-.carnegie-grid {
-  position: absolute;
-  width: 100%;
-  ul {
-    position: relative;
-    top: 740px;
-    float:left;
-    margin: 2%;
-    width: 20.5%;
-    height: 42%;
+  .carnegie-about {
     h2 {
+      position: relative;
+      top: 440px;
       color: $red;
+      margin-left: 15%; 
+      margin-right: 15%;
+    }
+    h3 {
+      position: relative;
+      top: 470px;
+      font-size: 22px;
+      color: black;
+      margin-left: 60px; 
+      margin-right: 60px;
+    }
+  }
+  .carnegie-grid {
+    position: absolute;
+    width: 100%;
+    margin-top: 20px;
+    ul {
+      position: relative;
       text-align: center;
+      top: 450px;
+      float:left;
+      margin: 0.5%;
+      width: 23%;
+      height: 42%;
+      h2 {
+        color: $red;
+        text-align: center;
+      }
+      h4 {
+        color: $darkgray;
+      }
     }
-    h4 {
-      color: $darkgray;
+    a {
+      position: relative;
+      text-decoration: none;
+      top: 980px;
+      right: 28.5%;
+      background-color: $red; 
+      color: white; 
+      bottom: 10px;
+      padding: 12px 36px;
+      font-size: 22px;
+      margin-bottom: -324px;
+      -webkit-transition-duration: 0.4s;
+      transition-duration: 0.4s;
+      border-radius: 12px;
     }
-  }
-  a {
-    position: relative;
-    text-decoration: none;
-    top: 980px;
-    right: 28.5%;
-    background-color: $red; 
-    color: white; 
-    bottom: 10px;
-    padding: 12px 36px;
-    font-size: 22px;
-    margin-bottom: -324px;
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
-    border-radius: 12px;
-  }
-  p {
-    position: relative;
-    color: #F5F5F5;
-    top: 1000px;
+    p {
+      position: relative;
+      color: #F5F5F5;
+      top: 1000px;
+    }
   }
 }
 

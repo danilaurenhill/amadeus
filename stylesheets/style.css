@@ -458,57 +458,70 @@ a {
       font-size: 24px;
       text-align: center; }
 
-  .carnegie-about {
+  .wrapper {
+    margin: 0 auto;
     position: absolute;
     width: 100%;
     text-align: center; }
-    .carnegie-about h2 {
+    .wrapper .carnegie-about h2 {
       position: relative;
       top: 270px;
       color: #CB2222;
-      margin-left: 5%;
-      margin-right: 5%;
+      margin-left: 8%;
+      margin-right: 8%;
       font-size: 22px; }
-    .carnegie-about h3 {
+    .wrapper .carnegie-about h3 {
       position: relative;
       top: 290px;
       font-size: 22px;
       color: black;
-      margin-left: 3%;
-      margin-right: 3%;
-      text-align: justify;
-      /*width: 70%;*/
-      /*text-align: center;*/ }
-
-  .carnegie-grid {
-    position: absolute;
-    width: 100%; }
-    .carnegie-grid ul {
-      top: 740px;
-      float: left;
-      position: relative;
-      margin: 2%;
-      width: 20.5%;
-      height: 42%; }
-      .carnegie-grid ul h2 {
-        color: #CB2222;
-        text-align: center; }
-      .carnegie-grid ul h4 {
-        color: #808080; }
-    .carnegie-grid a {
-      position: relative;
-      text-decoration: none;
-      top: 1000px;
-      right: 27%;
-      background-color: #CB2222;
-      color: white;
-      padding: 12px 36px;
-      font-size: 22px;
-      margin: 4px 2px;
-      -webkit-transition-duration: 0.4s;
-      transition-duration: 0.4s;
-      cursor: pointer;
-      border-radius: 12px; } }
+      margin-left: 5%;
+      margin-right: 5%;
+      text-align: justify; }
+    .wrapper .carnegie-grid {
+      position: absolute;
+      width: 100%;
+      display: inline-block;
+      margin-top: 20px;
+      /*a {
+        position: relative;
+        text-decoration: none;
+        top: 920px;
+        left: 32%;
+        background-color: $red; 
+        color: white; 
+        padding: 12px 36px;
+        font-size: 22px;
+        margin: 4px 2px;
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        border-radius: 12px;
+      }
+      p {
+        position: relative;
+        color: #F5F5F5;
+        top: 920px;
+      }*/ }
+      .wrapper .carnegie-grid ul {
+        position: relative;
+        top: 280px;
+        right: 43%;
+        text-align: justify;
+        width: 80%;
+        /*top: 800px;*/
+        /*top: 750px;
+        padding-top: 3%;
+        position: relative;
+        margin: 0%;
+        left: 8%;
+        width: 80%;
+        height: 42%;*/ }
+        .wrapper .carnegie-grid ul h2 {
+          color: #CB2222;
+          text-align: center; }
+        .wrapper .carnegie-grid ul h4 {
+          color: #808080; } }
 @media screen and (min-width: 750px) {
   .nav-bar {
     position: absolute;
@@ -968,58 +981,58 @@ a {
       font-size: 24px; }
 
   /*carnegie page*/
-  .carnegie-about {
+  .wrapper {
+    margin: 0 auto;
     position: absolute;
     width: 100%;
     text-align: center; }
-    .carnegie-about h2 {
+    .wrapper .carnegie-about h2 {
       position: relative;
       top: 440px;
       color: #CB2222;
       margin-left: 15%;
       margin-right: 15%; }
-    .carnegie-about h3 {
+    .wrapper .carnegie-about h3 {
       position: relative;
       top: 470px;
       font-size: 22px;
       color: black;
       margin-left: 60px;
-      margin-right: 60px;
-      /*width: 70%;*/
-      /*text-align: center;*/ }
-
-  .carnegie-grid {
-    position: absolute;
-    width: 100%; }
-    .carnegie-grid ul {
-      position: relative;
-      top: 740px;
-      float: left;
-      margin: 2%;
-      width: 20.5%;
-      height: 42%; }
-      .carnegie-grid ul h2 {
-        color: #CB2222;
-        text-align: center; }
-      .carnegie-grid ul h4 {
-        color: #808080; }
-    .carnegie-grid a {
-      position: relative;
-      text-decoration: none;
-      top: 980px;
-      right: 28.5%;
-      background-color: #CB2222;
-      color: white;
-      bottom: 10px;
-      padding: 12px 36px;
-      font-size: 22px;
-      margin-bottom: -324px;
-      -webkit-transition-duration: 0.4s;
-      transition-duration: 0.4s;
-      border-radius: 12px; }
-    .carnegie-grid p {
-      position: relative;
-      color: #F5F5F5;
-      top: 1000px; } }
+      margin-right: 60px; }
+    .wrapper .carnegie-grid {
+      position: absolute;
+      width: 100%;
+      margin-top: 20px; }
+      .wrapper .carnegie-grid ul {
+        position: relative;
+        text-align: center;
+        top: 450px;
+        float: left;
+        margin: 0.5%;
+        width: 23%;
+        height: 42%; }
+        .wrapper .carnegie-grid ul h2 {
+          color: #CB2222;
+          text-align: center; }
+        .wrapper .carnegie-grid ul h4 {
+          color: #808080; }
+      .wrapper .carnegie-grid a {
+        position: relative;
+        text-decoration: none;
+        top: 980px;
+        right: 28.5%;
+        background-color: #CB2222;
+        color: white;
+        bottom: 10px;
+        padding: 12px 36px;
+        font-size: 22px;
+        margin-bottom: -324px;
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+        border-radius: 12px; }
+      .wrapper .carnegie-grid p {
+        position: relative;
+        color: #F5F5F5;
+        top: 1000px; } }
 
 /*# sourceMappingURL=style.css.map */
