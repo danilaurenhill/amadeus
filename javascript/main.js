@@ -6,3 +6,10 @@ function myFunction() {
         x.className = "topnav";
     }
 }
+
+$(function() {
+        $('#topnav li a').click(function() {
+           $('#topnav li').removeClass();
+           $($(this).attr('href')).addClass('active');
+        });
+     });

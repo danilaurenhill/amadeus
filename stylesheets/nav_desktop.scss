@@ -41,7 +41,9 @@ ul.topnav li a {
   font-family: $font;
   padding-left: 15px;
   font-weight: 100;
-
+}
+:nav {
+  color: $red;
 }
 ul.topnav li p {
   position: relative;

@@ -497,6 +497,7 @@ a {
         color: #808080; }
     .carnegie-grid a {
       position: relative;
+      text-decoration: none;
       top: 1000px;
       right: 27%;
       background-color: #CB2222;
@@ -550,6 +551,8 @@ a {
       font-family: "Open Sans Condensed", sans-serif;
       padding-left: 15px;
       font-weight: 100; }
+    .nav-bar :nav {
+      color: #CB2222; }
     .nav-bar ul.topnav li p {
       position: relative;
       display: inline;
@@ -591,6 +594,9 @@ a {
       text-align: left; } }
 
 @media screen and (min-width: 750px) {
+  .nav-bar #topnav > .active > a {
+    color: red; }
+
   .slideshow {
     position: absolute;
     margin-top: -20px;
@@ -986,9 +992,9 @@ a {
     position: absolute;
     width: 100%; }
     .carnegie-grid ul {
+      position: relative;
       top: 740px;
       float: left;
-      position: relative;
       margin: 2%;
       width: 20.5%;
       height: 42%; }
@@ -999,16 +1005,21 @@ a {
         color: #808080; }
     .carnegie-grid a {
       position: relative;
-      top: 1000px;
-      right: 27%;
+      text-decoration: none;
+      top: 980px;
+      right: 28.5%;
       background-color: #CB2222;
       color: white;
+      bottom: 10px;
       padding: 12px 36px;
       font-size: 22px;
-      margin: 4px 2px;
+      margin-bottom: -324px;
       -webkit-transition-duration: 0.4s;
       transition-duration: 0.4s;
-      cursor: pointer;
-      border-radius: 12px; } }
+      border-radius: 12px; }
+    .carnegie-grid p {
+      position: relative;
+      color: #F5F5F5;
+      top: 1000px; } }
 
 /*# sourceMappingURL=style.css.map */

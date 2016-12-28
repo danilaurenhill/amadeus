@@ -1,3 +1,7 @@
+.nav-bar #topnav > .active > a {
+    color: red;
+}
+
 .slideshow {
   position: absolute;
   margin-top: -20px;
@@ -465,35 +469,43 @@
   position: absolute;
   width: 100%;
   ul {
-      top: 740px;
-      float:left;
-      position: relative;
-      margin: 2%;
-      width: 20.5%;
-      height: 42%;
-      h2 {
-        color: $red;
-        text-align: center;
-      }
-      h4 {
-        color: $darkgray;
-      }
+    position: relative;
+    top: 740px;
+    float:left;
+    margin: 2%;
+    width: 20.5%;
+    height: 42%;
+    h2 {
+      color: $red;
+      text-align: center;
     }
+    h4 {
+      color: $darkgray;
+    }
+  }
   a {
     position: relative;
-    top: 1000px;
-    right: 27%;
+    text-decoration: none;
+    top: 980px;
+    right: 28.5%;
     background-color: $red; 
     color: white; 
+    bottom: 10px;
     padding: 12px 36px;
     font-size: 22px;
-    margin: 4px 2px;
+    margin-bottom: -324px;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
-    cursor: pointer;
     border-radius: 12px;
   }
+  p {
+    position: relative;
+    color: #F5F5F5;
+    top: 1000px;
+  }
 }
+
+
 
 
 
