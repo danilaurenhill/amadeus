@@ -487,8 +487,8 @@
     a {
       position: relative;
       text-decoration: none;
-      top: 980px;
-      right: 28.5%;
+      top: 630px;
+      right: 36.5%;
       background-color: $red; 
       color: white; 
       bottom: 10px;
@@ -502,12 +502,48 @@
     p {
       position: relative;
       color: #F5F5F5;
-      top: 1000px;
+      top: 640px;
     }
   }
 }
 
-
+/*media*/
+.media-wrapper {
+  position: absolute;
+  width: 100%;
+  .media {
+    img {
+      position: relative;
+      top: 440px;
+      margin-left: 1%;
+      margin-right: 70%;
+    }
+   /* h3 {
+      margin-top: -21px;
+      margin-bottom: 15px;
+      padding-left: 25px;
+      padding-right: 40px;
+      width: 85%;
+      float: right;
+      text-align: justify;
+    }
+    h4 {
+      text-align: left;
+      @include clearfix;
+      margin-top: 40px;
+      font-size: modular-scale(2);
+      font-weight: 400;
+      padding-left: 25px;
+      padding-right: 25px;
+      width: 85%;
+      float: right;
+      &:hover {
+        text-decoration: none;
+        color: green;
+      }
+    }*/
+  }
+}
 
 
 

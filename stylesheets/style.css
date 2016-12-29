@@ -1019,8 +1019,8 @@ a {
       .wrapper .carnegie-grid a {
         position: relative;
         text-decoration: none;
-        top: 980px;
-        right: 28.5%;
+        top: 630px;
+        right: 36.5%;
         background-color: #CB2222;
         color: white;
         bottom: 10px;
@@ -1033,6 +1033,41 @@ a {
       .wrapper .carnegie-grid p {
         position: relative;
         color: #F5F5F5;
-        top: 1000px; } }
+        top: 640px; }
+
+  /*media*/
+  .media-wrapper {
+    position: absolute;
+    width: 100%; }
+    .media-wrapper .media {
+      /* h3 {
+         margin-top: -21px;
+         margin-bottom: 15px;
+         padding-left: 25px;
+         padding-right: 40px;
+         width: 85%;
+         float: right;
+         text-align: justify;
+       }
+       h4 {
+         text-align: left;
+         @include clearfix;
+         margin-top: 40px;
+         font-size: modular-scale(2);
+         font-weight: 400;
+         padding-left: 25px;
+         padding-right: 25px;
+         width: 85%;
+         float: right;
+         &:hover {
+           text-decoration: none;
+           color: green;
+         }
+       }*/ }
+      .media-wrapper .media img {
+        position: relative;
+        top: 440px;
+        margin-left: 1%;
+        margin-right: 70%; } }
 
 /*# sourceMappingURL=style.css.map */
