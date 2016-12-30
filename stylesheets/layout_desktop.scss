@@ -46,18 +46,18 @@
   }
 }
 .about {
-  h3{
+  h1 {
     padding-top: 740px;
     font-weight: 700;
     font-size: 26px;
     color: $red;
-    border-bottom: 3px double;
-    line-height: 1.7em;
     width: 180px;
   }
   h4 {
+    color: $darkgray;
     padding-top: 30px;
-    width: 80%;
+    font-size: 23px;
+    width: 90%;
     text-align: justify;
   }
 }
@@ -66,13 +66,12 @@
   height: 600px;
   padding-top: 80px;
   .pics {
-    width: 23%;
+    background-color: #DCDCDC;
+    width: 26%;
     height: 400px;
     float: left;
-    border-style: ridge;
-    border-color: white;
     margin-right: 20px;
-    margin-left: 14%;
+    margin-left: 9.5%;
     .photo {
       border-style: groove;
       margin-left: 20%;
@@ -83,7 +82,7 @@
     h2 {
       font-size: 22px;
       padding-left: 20px;
-      color: #C0C0C0;
+      color: $darkgray;
     }
     h3{
       padding-top: 0px;
@@ -97,16 +96,16 @@
       padding-left: 28px;
       text-align: justify;
       width: 90%;
-      color: #808080;
+      font-size: 17px;
+      color: black;
     }
   }
   .vids {
-    width: 23%;
+    width: 26%;
     height: 400px;
     float: left;
-    border-style: ridge;
-    border-color: white;
     margin-right: 20px;
+    background-color: #DCDCDC;
     .photo {
       border-style: groove;
       margin-left: 20%;
@@ -117,7 +116,7 @@
     h2 {
       font-size: 22px;
       padding-left: 20px;
-      color: #C0C0C0;
+      color: $darkgray;
     }
     h3{
       padding-top: 0px;
@@ -131,16 +130,16 @@
       padding-left: 4px;
       text-align: justify;
       width: 90%;
-      color: #808080;
+      color: black;
+      font-size: 17px;
     }
   }
   .news {
-    width: 23%;
+    width: 26%;
     height: 400px;
     float: left;
-    border-style: ridge;
-    border-color: white;
     margin-right: 20px;
+    background-color: #DCDCDC;
     .photo {
       border-style: groove;
       margin-left: 20%;
@@ -151,7 +150,7 @@
     h2 {
       font-size: 22px;
       padding-left: 20px;
-      color: #C0C0C0;
+      color: $darkgray;
     }
     h3{
       padding-top: 0px;
@@ -165,7 +164,8 @@
       padding-left: 28px;
       text-align: justify;
       width: 90%;
-      color: #808080;
+      font-size: 17px;
+      color: black;
     }
   }
 }
@@ -366,9 +366,13 @@
 .gallery {
   position: absolute;
   width: 100%;
+  h1 {
+    padding-top: 255px;
+    color: $red;
+  }
   .rows {
     ul {
-        top: 10px;
+        top: -10px;
         float:left;
         position: relative;
         margin: 5.56%;
@@ -396,6 +400,7 @@
     padding-top: 430px;
   }
   h4 {
+    color: $darkgray;
     padding-top: 3%;
     width: 85%;
     font-size: 21px;
@@ -511,6 +516,10 @@
 .media-wrapper {
   position: absolute;
   width: 100%;
+  h1 {
+    padding-top: 255px;
+    color: $red;
+  }
   .media {
     img {
       margin-top: 3%;
