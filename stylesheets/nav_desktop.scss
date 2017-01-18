@@ -19,7 +19,7 @@ ul.topnav {
   list-style-type: none;
   margin: 0;
   margin-top: 0px;
-  padding: 5.5px;
+  padding: 1px;
   overflow: hidden;
 /*  background-color: #333;*/
 }
@@ -34,13 +34,13 @@ ul.topnav li a {
   display: inline-block;
   color: #f2f2f2;
   text-align: center;
-  padding: 0px 3px;
+  padding: 0px 6px;
   text-decoration: none;
   font-size: 18px;
   z-index: 14;
   font-family: $font;
-  padding-left: 15px;
   font-weight: 100;
+  padding-right: 7px;
 }
 :nav {
   color: $red;
