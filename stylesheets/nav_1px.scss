@@ -31,9 +31,10 @@ ul.topnav li a {
   display: inline-block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 4px;
+  padding: 1px 16px;
+  margin-top: -24px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 15px;
   z-index: 14;
   font-family: $font;
   padding-left: 2px;
@@ -73,15 +74,15 @@ ul.topnav li.icon {display: none;}
   ul.topnav.responsive {position: relative;}
   ul.topnav.responsive li.icon {
     position: absolute;
-    right: 0;
-    top: 0;
+    right: 5px;
+    top: 20px;
   }
   ul.topnav.responsive li {
     float: none;
-    display: inline;
+    display: block;
   }
   ul.topnav.responsive li a {
-    display: block;
+    display: inline;
     text-align: left;
   }
 }

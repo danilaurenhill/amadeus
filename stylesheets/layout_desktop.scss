@@ -584,7 +584,29 @@
 }
 
 
-
-
-
-
+.success {
+  width: 100%;
+  display: block;
+  h1 {
+    padding-top: 235px;
+    color: $red;
+  }
+}
+.stories {
+  text-align: center;
+  .pic {
+    border-radius: 50%;
+    width: 15%;
+    display: inline-block;
+  }
+  h2 {
+    width: 80%;
+    font-size: 22px;
+    /*text-align: justify;*/
+    color: $red;
+  }
+  h3 {
+    width: 90%;
+    /*text-align: justify;*/
+  }
+}

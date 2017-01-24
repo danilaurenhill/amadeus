@@ -9,43 +9,54 @@
     <link href="./stylesheets/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
   </head>
-<body><br>
+<body>
   <div class="nav-bar">
-  <ul class="topnav" id="myTopnav">
-    <li><a href="index.html" class="nav"><p>AMADEUS MUSIC SCHOOL</p></a></li>
-    <li><a href="index.html" class="nav">HOME</a></li>
-    <li><a href="programs.html" class="nav">PROGRAMS</a></li>
-    <li><a href="carnegie.html" class="nav">CARNEGIE HALL ROYAL CONSERVATORY</a></li>
-    <li><a href="media.html" class="nav">MEDIA</a></li>
-    <li><a href="gallery.html" class="nav">GALLERY</a></li>
-    <li><a href="achievements.html" class="nav">ACHIEVEMENTS</a></li>
-    <li><a href="locations.html" class="nav">LOCATIONS</a></li>
-    <li><a href="career.html" class="nav">CAREERS</a></li>
+  <ul class="topnav" style="padding-top:25px;" id="myTopnav">
+    <li><a href="index.html" id='target1' class="active"><p>AMADEUS MUSIC SCHOOL</p></a></li>
+    <li><a href="index.html" id='target2'>HOME</a></li>
+    <li><a href="programs.html" id='target3'>PROGRAMS</a></li>
+    <li><a href="carnegie.html" id='target4'>CARNEGIE HALL ROYAL CONSERVATORY</a></li>
+    <li><a href="media.html" id='target5' >MEDIA</a></li>
+    <li><a href="success.html" id='target10'>SUCCESSES</a></li>
+    <li><a href="gallery.html" id='target6' >GALLERY</a></li>
+    <li><a href="achievements.html" id='target7' >ACHIEVEMENTS</a></li>
+    <li><a href="locations.html" id='target8'>LOCATIONS</a></li>
+    <li><a href="career.html" id='target9'>CAREERS</a></li>
     <li class="icon">
-    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+      <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
     </li>
   </ul>
 </div>
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
 <div class="slideshow-gallery">
   <img class="pic" src="./images/amadeuscover10.jpg">
 </div><br><br><br><br><br><br><br><br><br>
 <div class="media-wrapper">
 <center><h1>MEDIA</h1></center>
   <div class="media">
-    <img src="./images/amadeuscover6.jpg">
+    <img src="./images/amadeuscover6.jpg"><br><br>
     <a href="https://www.youtube.com/user/AMADEUSFLUSHINGNYC" target="_blank"><h4>Amadeus Music School Rising Stars Concert<small>June 2016</small></h4>
-    <h3>During the summer of 2016, Amadeus Music School held a Rising Stars Concert at the historic Flushing Town Hall.  The presented violinists, all Juilliard Pre-College students, performed various classical pieces, well displaying their musicality and talent.  </h3>
+    <h3>During the summer of 2016, Amadeus Music School held a Rising Stars Concert at the historic Flushing Town Hall.  The presented violinists, all Juilliard Pre-College students, performed various classical pieces, well displaying their musicality and talent.</h3>
   </div>
   <div class="media">
-    <img src="./images/amadeusnews1.jpg">
-    <a href="https://www.facebook.com/215531585143855/photos/a.216708865026127.59757.215531585143855/996450750385264/?type=3&theater" target="_blank"><h4>Faith Pak - Principle Violist of the National Youth Orchestra USA<small>August 2015</small></h4>
+    <img src="./images/amadeusnews1.jpg"><br><br>
+    <a href="https://www.youtube.com/user/AMADEUSFLUSHINGNYC" target="_blank"><h4>Principle Violist of the National Youth Orchestra<small>August 2015</small></h4>
     <h3>Congratulations to Faith Pak who has been selected as the Principle Violist of the National Youth Orchestra USA for 2015. This summer, NYO embarks on a historic China tour. Each year, Carnegie Hall brings together 120 of the brightest young musicians from across the country to perform. Faith studied at Amadeus Music School for 6 years before getting accepted to Juilliard Pre-college. She will attend Harvard University this fall.</h3>
   </div>
-  <div class="media">
-    <img src="./images/amadeusnews3.jpg">
-    <a href="http://www.concorsopostacchini.com/show/223/" target="_blank"><h4>Ashley Park 2nd Prize Winner in the Andrea Postacchini International Violin Competition 2016<small>May 2016</small></h4>
-    <h3>Amadeus student Ashley Park was declared the second Prize Winner of the Andrea Postacchini International Violin Competition this year. This prstigious competition is organized annualy to carry on the legacy of renowned Italian violinist Andrea Postacchini.</h3><br><br><br><br>
-  </div>
+  <!-- <div class="media">
+    <img src="./images/amadeusnews1.jpg"><br>
+    <a href="https://www.facebook.com/215531585143855/photos/a.216708865026127.59757.215531585143855/996450750385264/?type=3&theater" target="_blank"><h4>Faith Pak - Principle Violist of the National Youth Orchestra USA<small>August 2015</small></h4>
+    <h3>Congratulations to Faith Pak who has been selected as the Principle Violist of the National Youth Orchestra USA for 2015. This summer, NYO embarks on a historic China tour. Each year, Carnegie Hall brings together 120 of the brightest young musicians from across the country to perform. Faith studied at Amadeus Music School for 6 years before getting accepted to Juilliard Pre-college. She will attend Harvard University this fall.</h3>
+  </div> -->
 </div>
 </body>
 </head>

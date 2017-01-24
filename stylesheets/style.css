@@ -75,9 +75,10 @@ a {
       display: inline-block;
       color: #f2f2f2;
       text-align: center;
-      padding: 14px 4px;
+      padding: 1px 16px;
+      margin-top: -24px;
       text-decoration: none;
-      font-size: 18px;
+      font-size: 15px;
       z-index: 14;
       font-family: "Open Sans Condensed", sans-serif;
       padding-left: 2px;
@@ -112,13 +113,13 @@ a {
       position: relative; }
     .nav-bar ul.topnav.responsive li.icon {
       position: absolute;
-      right: 0;
-      top: 0; }
+      right: 5px;
+      top: 20px; }
     .nav-bar ul.topnav.responsive li {
       float: none;
-      display: inline; }
+      display: block; }
     .nav-bar ul.topnav.responsive li a {
-      display: block;
+      display: inline;
       text-align: left; } }
 
 @media screen and (max-width: 750px) {
@@ -202,6 +203,19 @@ a {
       width: 32%;
       text-align: justify;
       color: #808080; }
+
+  .slideshow-program {
+    position: absolute;
+    margin-top: -20px;
+    text-align: center;
+    width: 100%; }
+    .slideshow-program .pic {
+      position: relative;
+      z-index: 1;
+      display: inline-block;
+      width: 100%;
+      height: 45%;
+      /*opacity: 0.9;*/ }
 
   .extras {
     width: 100%;
@@ -388,20 +402,20 @@ a {
     position: absolute; }
     .programs h3 {
       position: relative;
-      top: 260px;
+      top: 350px;
       left: 24px;
       width: 90%;
       font-size: 21px; }
     .programs h2 {
       position: relative;
-      top: 270px;
+      top: 370px;
       text-align: center;
       color: #CB2222;
       font-size: 23px; }
     .programs h4 {
       margin-top: -50px;
       position: relative;
-      top: 330px;
+      top: 430px;
       text-align: justify;
       width: 90%;
       color: black;
@@ -547,67 +561,95 @@ a {
           color: #CB2222;
           text-align: center; }
         .wrapper .carnegie-grid ul h4 {
-          color: #808080; } }
+          color: #808080; }
+
+  .media-wrapper {
+    position: absolute;
+    width: 100%; }
+    .media-wrapper h1 {
+      padding-top: 85px;
+      color: #CB2222; }
+    .media-wrapper .media img {
+      margin-top: 3%;
+      margin-left: 31%;
+      overflow: hidden;
+      width: 38%;
+      height: 30%; }
+    .media-wrapper .media h4 {
+      color: #808080;
+      font-size: 24px;
+      margin-top: 20px;
+      text-align: center;
+      width: 100%; }
+      .media-wrapper .media h4:hover {
+        text-decoration: none;
+        color: #CB2222; }
+    .media-wrapper .media small {
+      text-align: center;
+      text-decoration: none;
+      margin-left: 25px;
+      margin-top: -60px;
+      display: block; }
+      .media-wrapper .media small:hover {
+        text-decoration: none; }
+    .media-wrapper .media h3 {
+      text-decoration: none;
+      width: 90%;
+      margin-bottom: 15px;
+      margin-top: 57px;
+      margin-left: 30px;
+      color: black;
+      text-align: justify;
+      /*text-align: center;*/ } }
 @media screen and (min-width: 750px) {
   .nav-bar {
-    position: absolute;
-    z-index: 3;
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 100%; }
+    width: 100%;
+    position: absolute;
+    z-index: 3; }
     .nav-bar:last-child {
       margin-right: 0; }
-    .nav-bar .logo {
-      width: 100%; }
-      .nav-bar .logo h1 {
-        margin-top: -50px;
-        color: #CB2222;
-        font-size: 20px;
-        margin-right: 0px;
-        font-weight: 900; }
-    .nav-bar ul.topnav {
-      position: absolute;
+    .nav-bar .topnav {
       width: 100%;
       list-style-type: none;
-      margin: 0;
-      margin-top: 0px;
-      padding: 1px;
       overflow: hidden;
-      /*  background-color: #333;*/ }
-    .nav-bar ul.topnav li {
-      float: left; }
-    .nav-bar ul.topnav li a {
-      position: relative;
-      right: 10px;
-      display: inline-block;
-      color: #f2f2f2;
-      text-align: center;
-      padding: 0px 6px;
-      text-decoration: none;
-      font-size: 18px;
-      z-index: 14;
-      font-family: "Open Sans Condensed", sans-serif;
-      font-weight: 100;
-      padding-right: 7px; }
+      margin-top: 1px;
+      padding: 3px; }
+      .nav-bar .topnav li {
+        float: left; }
+        .nav-bar .topnav li a {
+          position: relative;
+          /*right: 10px;*/
+          display: inline-block;
+          color: #f2f2f2;
+          /*text-align: center;*/
+          padding: 0px 10px;
+          text-decoration: none;
+          font-size: 18px;
+          z-index: 14;
+          font-family: "Open Sans Condensed", sans-serif;
+          font-weight: 100;
+          padding-right: 0px; }
+        .nav-bar .topnav li p {
+          position: relative;
+          display: inline;
+          color: #CB2222;
+          /*text-align: center;*/
+          font-size: 28px;
+          left: 20px;
+          margin: -3px;
+          padding-right: 367px;
+          padding: -31px 16px;
+          text-decoration: none;
+          z-index: 14;
+          font-family: "Open Sans Condensed", sans-serif;
+          font-weight: 400; }
+          .nav-bar .topnav li p:hover {
+            background-color: rgba(255, 0, 0, 0); }
     .nav-bar :nav {
       color: #CB2222; }
-    .nav-bar ul.topnav li p {
-      position: relative;
-      display: inline;
-      color: #CB2222;
-      /*text-align: center;*/
-      font-size: 28px;
-      left: 20px;
-      margin: -3px;
-      padding-right: 367px;
-      padding: -31px 16px;
-      text-decoration: none;
-      z-index: 14;
-      font-family: "Open Sans Condensed", sans-serif;
-      font-weight: 400; }
-      .nav-bar ul.topnav li p:hover {
-        background-color: rgba(255, 0, 0, 0); }
     .nav-bar ul.topnav li a:hover {
       color: #CB2222; }
     .nav-bar ul.topnav li.icon {
@@ -1122,6 +1164,28 @@ a {
       width: 78%;
       float: right;
       color: black;
-      text-align: justify; } }
+      text-align: justify; }
+
+  .success {
+    width: 100%;
+    display: block; }
+    .success h1 {
+      padding-top: 235px;
+      color: #CB2222; }
+
+  .stories {
+    text-align: center; }
+    .stories .pic {
+      border-radius: 50%;
+      width: 15%;
+      display: inline-block; }
+    .stories h2 {
+      width: 80%;
+      font-size: 22px;
+      /*text-align: justify;*/
+      color: #CB2222; }
+    .stories h3 {
+      width: 90%;
+      /*text-align: justify;*/ } }
 
 /*# sourceMappingURL=style.css.map */
