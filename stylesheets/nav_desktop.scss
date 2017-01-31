@@ -81,118 +81,53 @@ ul.topnav li.icon {display: none;}
 
 
 
-
-
-
-
-
-
-/*footer*/
-
-$dk-blue: #1E83AE;
-$blue: #3D5B94;
-$light-blue: #3DACDD;
-$green: #6dcd9a;
-$social-size: 1.2em;
-$social-width: 20%;
-
-* {
-  margin: 0;
-  padding: 0;
-  @include box-sizing(border-box);
+br {
+  display: none;
 }
 
-html, body {
-  font-family: Raleway, sans-serif;  
-  background-color: #fff;
+html {
+    position: relative;
+    min-height: 100%;
 }
-
+body {
+    margin: 0 0 190px; /* bottom = footer height */
+}
 footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 170px;
   width: 100%;
-  display: inline-block;
-  margin: 0em 0;
-  height: 70px;
-  background-color: #999;
-  .copyright {
-    width: 40%;
+  background: $red;
+  p {
+    margin-top: 30px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+  }
+  .one {
+    margin-top: 10px;
     float: left;
-    @media (max-width: 600px) {
-      width: 100%;
-    }
-    p {
-      padding-left: 12%;
-      color: white;
-      font-size: 1.0em;
-      line-height: 70px;
-      text-transform: capitalize;
-      letter-spacing: 1px;
-      @media (max-width: 600px) {
-        text-align: center;
-        padding: 0;
-      }
-    }
+    width: 32.7%;
   }
-  .social {
-      width: 50%;
-      float: right;
-    @media (max-width: 600px) {
-      width: 100%;
-    }
-    a {
-      float: left;
-      line-height: 70px;
-      text-decoration: none;
-      color: white;
-      margin-left: -155px;
-      text-align: center;
-      font-weight: bold; 
-      @include transition(all, 0.3s);
-       &:hover {
-         background-color: #222;
-         @include transition(all, .3s);
-      }
-    }
-    h3 {
-      float: left;
-      line-height: 70px;
-      text-decoration: none;
-      color: white;
-      text-align: center;
-      font-weight: bold; 
-    }
-    h5 {
-      margin-left: -14px;
-      margin-right: 12px;
-      float: left;
-      line-height: 70px;
-      text-decoration: none;
-      color: $red;
-      text-align: center;
-      font-weight: bold; 
-    }
+  h3 {
+    color: $lightgray;
+    font-size: 16px;
+    text-align: center;
+  }
+  h5 {
+    color: $lightgray;
+    font-size: 12px;
+    text-align: center;
   }
 }
 
-.face {
-  background-color: $blue;
-  font-size: $social-size;
-  width: $social-width;
-}
-.linked {
-  background-color: #999;
-  font-size: $social-size;
-  width: $social-width;
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
-.tweet {
-  background-color: #999;
-  font-size: $social-size;
-  width: $social-width;
+.site-content {
+  flex: 1;
 }
-
-.support {
-  background-color: #999;
-  font-size: $social-size;
-  width: $social-width;
-}
-

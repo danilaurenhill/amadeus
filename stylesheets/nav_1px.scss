@@ -87,3 +87,44 @@ ul.topnav li.icon {display: none;}
   }
 }
 }
+
+
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 0 190px; /* bottom = footer height */
+}
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  margin-bottom: -730px;
+  height: 170px;
+  width: 100%;
+  background: $red;
+  p {
+    margin-top: 30px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+  }
+  .one {
+    margin-top: 0px;
+    float: left;
+    width: 33.2%;
+  }
+  h3 {
+    color: $lightgray;
+    font-size: 16px;
+    text-align: center;
+  }
+  h5 {
+    color: $lightgray;
+    font-size: 12px;
+    text-align: center;
+  }
+}
+
