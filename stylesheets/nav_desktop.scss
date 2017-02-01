@@ -79,11 +79,11 @@ ul.topnav li.icon {display: none;}
 }
 }
 
-
+/*
 
 br {
   display: none;
-}
+}*/
 
 html {
     position: relative;
@@ -122,12 +122,3 @@ footer {
   }
 }
 
-.site {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-}
-
-.site-content {
-  flex: 1;
-}
