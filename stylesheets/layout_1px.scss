@@ -75,11 +75,12 @@ h1 {
 .about {
   margin: -360px;
   h1 {
-    padding-top: 100px;
+    padding-top: 205px;
     font-weight: 700;
-    font-size: 26px;
+    font-size: 21px;
     color: $red;
     width: 180px;
+    margin-left: -26px;
   }
   h3{
     padding-top: 40px;
@@ -89,13 +90,13 @@ h1 {
     width: 80%;
   }
   h4 {
-    padding-top: 30px;
-    width: 32%;
+    padding-top: 0px;
+    /*margin-top: 300px;*/
+    width: 23%;
     text-align: justify;
     color: $darkgray;
   }
 }
-
 
 .slideshow-program {
   position: absolute;
@@ -111,7 +112,6 @@ h1 {
     /*opacity: 0.9;*/
   }
 }
-
 
 .extras {
   width: 100%;
@@ -136,9 +136,16 @@ h1 {
     }
     h3 {
       font-size: 17px;
+      &:hover {
+        text-decoration: none;
+        color: $red;
+      }
     }
     p {
       display: none;
+    }
+    a:hover {
+      color: $red;
     }
   }
   .vids {
@@ -160,6 +167,10 @@ h1 {
     }
     h3 {
       font-size: 17px;
+      &:hover {
+        text-decoration: none;
+        color: $red;
+      }
     }
     p {
       display: none;
@@ -184,6 +195,10 @@ h1 {
     }
     h3 {
       font-size: 17px;
+      &:hover {
+        text-decoration: none;
+        color: $red;
+      }
     }
     p {
       display: none;
