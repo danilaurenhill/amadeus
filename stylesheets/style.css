@@ -459,20 +459,20 @@ a {
     position: absolute; }
     .programs h3 {
       position: relative;
-      top: 300px;
+      top: 200px;
       left: 24px;
       width: 90%;
-      font-size: 21px; }
+      font-size: 16px; }
     .programs h2 {
       position: relative;
-      top: 370px;
+      top: 230px;
       text-align: center;
       color: #CB2222;
       font-size: 23px; }
     .programs h4 {
       margin-top: -50px;
       position: relative;
-      top: 430px;
+      top: 290px;
       text-align: justify;
       width: 90%;
       color: black;
