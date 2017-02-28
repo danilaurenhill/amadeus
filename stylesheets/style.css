@@ -59,14 +59,14 @@ a {
       .nav-bar .logo h1 {
         margin-top: -50px;
         color: #CB2222;
-        font-size: 22px;
+        font-size: 20px;
         margin-right: 0px;
         font-weight: 900; }
     .nav-bar ul.topnav {
       width: 100%;
       list-style-type: none;
       margin: 0;
-      padding-top: 5px;
+      padding-top: 25px;
       margin-top: 2px;
       padding: 5.5px;
       overflow: hidden;
