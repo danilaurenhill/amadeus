@@ -132,30 +132,34 @@ a {
     margin: 0 0 190px;
     /* bottom = footer height */ }
 
-  footer {
+  .footer {
     position: absolute;
-    bottom: 0px;
-    margin-bottom: -730px;
-    height: 88px;
-    width: 100%;
-    background: #CB2222; }
-    footer p {
-      margin-top: 2px;
-      font-size: 11px;
-      color: white;
-      text-align: center; }
-    footer .one {
-      margin-top: 0px;
-      float: left;
-      width: 33.2%; }
-    footer h3 {
-      color: #C0C0C0;
-      font-size: 8px;
-      text-align: center; }
-    footer h5 {
-      color: #C0C0C0;
-      font-size: 8px;
-      text-align: center; }
+    width: 100%; }
+    .footer footer {
+      position: relative;
+      bottom: -2768px;
+      /*margin-bottom: -730px;*/
+      height: 88px;
+      width: 100%;
+      background: #CB2222; }
+      .footer footer p {
+        margin-top: 2px;
+        padding-top: 10px;
+        font-size: 11px;
+        color: white;
+        text-align: center; }
+      .footer footer .one {
+        margin-top: -15px;
+        float: left;
+        width: 33.2%; }
+      .footer footer h3 {
+        color: #C0C0C0;
+        font-size: 8px;
+        text-align: center; }
+      .footer footer h5 {
+        color: #C0C0C0;
+        font-size: 8px;
+        text-align: center; }
 
   h1 {
     font-size: 24px;
@@ -785,30 +789,35 @@ a {
     margin: 0 0 190px;
     /* bottom = footer height */ }
 
-  footer {
+  .footer {
     position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 170px;
-    width: 100%;
-    background: #CB2222; }
-    footer p {
-      margin-top: 30px;
-      font-size: 18px;
-      color: white;
-      text-align: center; }
-    footer .one {
-      margin-top: 10px;
-      float: left;
-      width: 32.7%; }
-    footer h3 {
-      color: #C0C0C0;
-      font-size: 16px;
-      text-align: center; }
-    footer h5 {
-      color: #C0C0C0;
-      font-size: 12px;
-      text-align: center; }
+    width: 100%; }
+    .footer footer {
+      position: relative;
+      left: 0;
+      margin-top: 1300px;
+      /*bottom: 0;*/
+      height: 170px;
+      width: 100%;
+      background: #CB2222; }
+      .footer footer p {
+        padding-top: 20px;
+        margin-top: 30px;
+        font-size: 18px;
+        color: white;
+        text-align: center; }
+      .footer footer .one {
+        margin-top: 10px;
+        float: left;
+        width: 32.7%; }
+      .footer footer h3 {
+        color: #C0C0C0;
+        font-size: 16px;
+        text-align: center; }
+      .footer footer h5 {
+        color: #C0C0C0;
+        font-size: 12px;
+        text-align: center; }
 
   .nav-bar #topnav > .active > a {
     color: red; }

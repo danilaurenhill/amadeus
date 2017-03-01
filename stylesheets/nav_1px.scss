@@ -97,33 +97,38 @@ html {
 body {
     margin: 0 0 190px; /* bottom = footer height */
 }
-footer {
+.footer {
   position: absolute;
-  bottom: 0px;
-  margin-bottom: -730px;
-  height: 88px;
   width: 100%;
-  background: $red;
-  p {
-    margin-top: 2px;
-    font-size: 11px;
-    color: white;
-    text-align: center;
-  }
-  .one {
-    margin-top: 0px;
-    float: left;
-    width: 33.2%;
-  }
-  h3 {
-    color: $lightgray;
-    font-size: 8px;
-    text-align: center;
-  }
-  h5 {
-    color: $lightgray;
-    font-size: 8px;
-    text-align: center;
+  footer {
+    position: relative;
+    bottom: -2768px;
+    /*margin-bottom: -730px;*/
+    height: 88px;
+    width: 100%;
+    background: $red;
+    p {
+      margin-top: 2px;
+      padding-top: 10px;
+      font-size: 11px;
+      color: white;
+      text-align: center;
+    }
+    .one {
+      margin-top: -15px;
+      float: left;
+      width: 33.2%;
+    }
+    h3 {
+      color: $lightgray;
+      font-size: 8px;
+      text-align: center;
+    }
+    h5 {
+      color: $lightgray;
+      font-size: 8px;
+      text-align: center;
+    }
   }
 }
 
