@@ -132,34 +132,237 @@ a {
     margin: 0 0 190px;
     /* bottom = footer height */ }
 
-  .footer {
+  #footer-index {
     position: absolute;
-    width: 100%; }
-    .footer footer {
-      position: relative;
-      bottom: -2768px;
-      /*margin-bottom: -730px;*/
-      height: 88px;
-      width: 100%;
-      background: #CB2222; }
-      .footer footer p {
-        margin-top: 2px;
-        padding-top: 10px;
-        font-size: 11px;
-        color: white;
-        text-align: center; }
-      .footer footer .one {
-        margin-top: -15px;
-        float: left;
-        width: 33.2%; }
-      .footer footer h3 {
-        color: #C0C0C0;
-        font-size: 8px;
-        text-align: center; }
-      .footer footer h5 {
-        color: #C0C0C0;
-        font-size: 8px;
-        text-align: center; }
+    bottom: -568px;
+    height: 88px;
+    width: 100%;
+    background: #CB2222; }
+    #footer-index p {
+      margin-top: 2px;
+      padding-top: 10px;
+      font-size: 11px;
+      color: white;
+      text-align: center; }
+    #footer-index .one {
+      margin-top: -15px;
+      float: left;
+      width: 33.2%; }
+    #footer-index h3 {
+      color: #C0C0C0;
+      font-size: 8px;
+      text-align: center; }
+    #footer-index h5 {
+      color: #C0C0C0;
+      font-size: 8px;
+      text-align: center; }
+
+  #footer-programs {
+    position: absolute;
+    bottom: -1068px;
+    margin-bottom: -730px;
+    height: 88px;
+    width: 100%;
+    background: #CB2222; }
+    #footer-programs p {
+      margin-top: 2px;
+      padding-top: 10px;
+      font-size: 11px;
+      color: white;
+      text-align: center; }
+    #footer-programs .one {
+      margin-top: -15px;
+      float: left;
+      width: 33.2%; }
+    #footer-programs h3 {
+      color: #C0C0C0;
+      font-size: 8px;
+      text-align: center; }
+    #footer-programs h5 {
+      color: #C0C0C0;
+      font-size: 8px;
+      text-align: center; }
+
+  #footer-carnegie {
+    position: absolute;
+    bottom: -2500px;
+    height: 88px;
+    width: 100%;
+    background: #CB2222; }
+    #footer-carnegie p {
+      margin-top: 2px;
+      padding-top: 10px;
+      font-size: 11px;
+      color: white;
+      text-align: center; }
+    #footer-carnegie .one {
+      margin-top: -15px;
+      float: left;
+      width: 33.2%; }
+    #footer-carnegie h3 {
+      color: #C0C0C0;
+      font-size: 8px;
+      text-align: center; }
+    #footer-carnegie h5 {
+      color: #C0C0C0;
+      font-size: 8px;
+      text-align: center; }
+
+  #footer-media {
+    position: relative;
+    left: 0;
+    bottom: -1320px;
+    height: 170px;
+    width: 100%;
+    background: #CB2222; }
+    #footer-media p {
+      padding-top: 20px;
+      margin-top: 30px;
+      font-size: 18px;
+      color: white;
+      text-align: center; }
+    #footer-media .one {
+      margin-top: 10px;
+      float: left;
+      width: 32.7%; }
+    #footer-media h3 {
+      color: #C0C0C0;
+      font-size: 16px;
+      text-align: center; }
+    #footer-media h5 {
+      color: #C0C0C0;
+      font-size: 12px;
+      text-align: center; }
+
+  #footer-success {
+    position: relative;
+    left: 0;
+    bottom: -198;
+    height: 170px;
+    width: 100%;
+    background: #CB2222; }
+    #footer-success p {
+      padding-top: 20px;
+      margin-top: 30px;
+      font-size: 18px;
+      color: white;
+      text-align: center; }
+    #footer-success .one {
+      margin-top: 10px;
+      float: left;
+      width: 32.7%; }
+    #footer-success h3 {
+      color: #C0C0C0;
+      font-size: 16px;
+      text-align: center; }
+    #footer-success h5 {
+      color: #C0C0C0;
+      font-size: 12px;
+      text-align: center; }
+
+  #footer-gallery {
+    position: relative;
+    left: 0;
+    bottom: -1530px;
+    height: 170px;
+    width: 100%;
+    background: #CB2222; }
+    #footer-gallery p {
+      padding-top: 20px;
+      margin-top: 30px;
+      font-size: 18px;
+      color: white;
+      text-align: center; }
+    #footer-gallery .one {
+      margin-top: 10px;
+      float: left;
+      width: 32.7%; }
+    #footer-gallery h3 {
+      color: #C0C0C0;
+      font-size: 16px;
+      text-align: center; }
+    #footer-gallery h5 {
+      color: #C0C0C0;
+      font-size: 12px;
+      text-align: center; }
+
+  #footer-achievements {
+    position: absolute;
+    bottom: -2468px;
+    margin-bottom: -730px;
+    height: 88px;
+    width: 100%;
+    background: #CB2222; }
+    #footer-achievements p {
+      margin-top: 2px;
+      padding-top: 10px;
+      font-size: 11px;
+      color: white;
+      text-align: center; }
+    #footer-achievements .one {
+      margin-top: -15px;
+      float: left;
+      width: 33.2%; }
+    #footer-achievements h3 {
+      color: #C0C0C0;
+      font-size: 8px;
+      text-align: center; }
+    #footer-achievements h5 {
+      color: #C0C0C0;
+      font-size: 8px;
+      text-align: center; }
+
+  #footer-locations {
+    position: absolute;
+    bottom: -398px;
+    margin-bottom: -730px;
+    height: 88px;
+    width: 100%;
+    background: #CB2222; }
+    #footer-locations p {
+      margin-top: 2px;
+      padding-top: 10px;
+      font-size: 11px;
+      color: white;
+      text-align: center; }
+    #footer-locations .one {
+      margin-top: -15px;
+      float: left;
+      width: 33.2%; }
+    #footer-locations h3 {
+      color: #C0C0C0;
+      font-size: 8px;
+      text-align: center; }
+    #footer-locations h5 {
+      color: #C0C0C0;
+      font-size: 8px;
+      text-align: center; }
+
+  #footer-career {
+    position: absolute;
+    bottom: 568px;
+    margin-bottom: -730px;
+    height: 88px;
+    width: 103%;
+    background: #CB2222; }
+    #footer-career p {
+      margin-top: 2px;
+      padding-top: 10px;
+      font-size: 11px;
+      color: white;
+      text-align: center; }
+    #footer-career .one {
+      margin-top: -15px;
+      float: left;
+      width: 33.2%; }
+    #footer-career h3 {
+      color: #C0C0C0;
+      font-size: 8px;
+      text-align: center; }
+    #footer-career h5 {
+      color: #C0C0C0;
+      font-size: 8px;
+      text-align: center; }
 
   h1 {
     font-size: 24px;
@@ -491,13 +694,15 @@ a {
     position: absolute;
     width: 100%; }
     .career h1 {
-      margin-top: 320px; }
+      margin-top: 120px;
+      font-size: 19px; }
     .career h4 {
-      padding-top: 40px;
+      padding-top: 10px;
       width: 85%;
-      font-size: 21px; }
+      font-size: 17px; }
     .career h3 {
-      font-size: 25px;
+      margin-top: 10px;
+      font-size: 18px;
       width: 85%;
       color: #CB2222; }
 
@@ -546,28 +751,29 @@ a {
     position: absolute;
     width: 100%; }
     .achievements h1 {
-      margin-top: 282px; }
+      margin-top: 110px;
+      font-size: 19px; }
     .achievements .list2015 h3 {
       color: #444;
-      padding-top: 30px;
+      padding-top: -30px;
       padding-bottom: 40px;
-      font-size: 24px;
+      font-size: 17px;
       text-align: center; }
     .achievements .list2015 h4 {
       float: left;
       position: relative;
       width: 95%;
-      margin-top: 10px;
+      margin-top: -30px;
       padding-left: 20px;
       overflow: hidden;
       font-size: 18px;
-      margin-bottom: 25px;
+      margin-bottom: 45px;
       text-align: center; }
     .achievements .list2015 h2 {
       color: #444;
       padding-bottom: 40px;
       margin-top: 91%;
-      font-size: 24px;
+      font-size: 17px;
       text-align: center; }
 
   .wrapper {
@@ -789,35 +995,239 @@ a {
     margin: 0 0 190px;
     /* bottom = footer height */ }
 
-  .footer {
-    position: absolute;
-    width: 100%; }
-    .footer footer {
-      position: relative;
-      left: 0;
-      margin-top: 1300px;
-      /*bottom: 0;*/
-      height: 170px;
-      width: 100%;
-      background: #CB2222; }
-      .footer footer p {
-        padding-top: 20px;
-        margin-top: 30px;
-        font-size: 18px;
-        color: white;
-        text-align: center; }
-      .footer footer .one {
-        margin-top: 10px;
-        float: left;
-        width: 32.7%; }
-      .footer footer h3 {
-        color: #C0C0C0;
-        font-size: 16px;
-        text-align: center; }
-      .footer footer h5 {
-        color: #C0C0C0;
-        font-size: 12px;
-        text-align: center; }
+  #footer-index {
+    position: relative;
+    left: 0;
+    bottom: -192;
+    height: 170px;
+    width: 100%;
+    background: #CB2222; }
+    #footer-index p {
+      padding-top: 20px;
+      margin-top: 30px;
+      font-size: 18px;
+      color: white;
+      text-align: center; }
+    #footer-index .one {
+      margin-top: 10px;
+      float: left;
+      width: 32.7%; }
+    #footer-index h3 {
+      color: #C0C0C0;
+      font-size: 16px;
+      text-align: center; }
+    #footer-index h5 {
+      color: #C0C0C0;
+      font-size: 12px;
+      text-align: center; }
+
+  #footer-programs {
+    position: relative;
+    left: 0;
+    bottom: -1275;
+    height: 170px;
+    width: 100%;
+    background: #CB2222; }
+    #footer-programs p {
+      padding-top: 20px;
+      margin-top: 30px;
+      font-size: 18px;
+      color: white;
+      text-align: center; }
+    #footer-programs .one {
+      margin-top: 10px;
+      float: left;
+      width: 32.7%; }
+    #footer-programs h3 {
+      color: #C0C0C0;
+      font-size: 16px;
+      text-align: center; }
+    #footer-programs h5 {
+      color: #C0C0C0;
+      font-size: 12px;
+      text-align: center; }
+
+  #footer-carnegie {
+    position: relative;
+    left: 0;
+    bottom: -1300px;
+    height: 170px;
+    width: 100%;
+    background: #CB2222; }
+    #footer-carnegie p {
+      padding-top: 20px;
+      margin-top: 30px;
+      font-size: 18px;
+      color: white;
+      text-align: center; }
+    #footer-carnegie .one {
+      margin-top: 10px;
+      float: left;
+      width: 32.7%; }
+    #footer-carnegie h3 {
+      color: #C0C0C0;
+      font-size: 16px;
+      text-align: center; }
+    #footer-carnegie h5 {
+      color: #C0C0C0;
+      font-size: 12px;
+      text-align: center; }
+
+  #footer-media {
+    position: relative;
+    left: 0;
+    bottom: -1020px;
+    height: 170px;
+    width: 100%;
+    background: #CB2222; }
+    #footer-media p {
+      padding-top: 20px;
+      margin-top: 30px;
+      font-size: 18px;
+      color: white;
+      text-align: center; }
+    #footer-media .one {
+      margin-top: 10px;
+      float: left;
+      width: 32.7%; }
+    #footer-media h3 {
+      color: #C0C0C0;
+      font-size: 16px;
+      text-align: center; }
+    #footer-media h5 {
+      color: #C0C0C0;
+      font-size: 12px;
+      text-align: center; }
+
+  #footer-success {
+    position: relative;
+    left: 0;
+    bottom: -198;
+    height: 170px;
+    width: 100%;
+    background: #CB2222; }
+    #footer-success p {
+      padding-top: 20px;
+      margin-top: 30px;
+      font-size: 18px;
+      color: white;
+      text-align: center; }
+    #footer-success .one {
+      margin-top: 10px;
+      float: left;
+      width: 32.7%; }
+    #footer-success h3 {
+      color: #C0C0C0;
+      font-size: 16px;
+      text-align: center; }
+    #footer-success h5 {
+      color: #C0C0C0;
+      font-size: 12px;
+      text-align: center; }
+
+  #footer-gallery {
+    position: relative;
+    left: 0;
+    bottom: -2000px;
+    height: 170px;
+    width: 100%;
+    background: #CB2222; }
+    #footer-gallery p {
+      padding-top: 20px;
+      margin-top: 30px;
+      font-size: 18px;
+      color: white;
+      text-align: center; }
+    #footer-gallery .one {
+      margin-top: 10px;
+      float: left;
+      width: 32.7%; }
+    #footer-gallery h3 {
+      color: #C0C0C0;
+      font-size: 16px;
+      text-align: center; }
+    #footer-gallery h5 {
+      color: #C0C0C0;
+      font-size: 12px;
+      text-align: center; }
+
+  #footer-achievements {
+    position: relative;
+    left: 0;
+    bottom: -2550px;
+    height: 170px;
+    width: 100%;
+    background: #CB2222; }
+    #footer-achievements p {
+      padding-top: 20px;
+      margin-top: 30px;
+      font-size: 18px;
+      color: white;
+      text-align: center; }
+    #footer-achievements .one {
+      margin-top: 10px;
+      float: left;
+      width: 32.7%; }
+    #footer-achievements h3 {
+      color: #C0C0C0;
+      font-size: 16px;
+      text-align: center; }
+    #footer-achievements h5 {
+      color: #C0C0C0;
+      font-size: 12px;
+      text-align: center; }
+
+  #footer-locations {
+    position: relative;
+    left: 0;
+    bottom: -780px;
+    height: 170px;
+    width: 100%;
+    background: #CB2222; }
+    #footer-locations p {
+      padding-top: 20px;
+      margin-top: 30px;
+      font-size: 18px;
+      color: white;
+      text-align: center; }
+    #footer-locations .one {
+      margin-top: 10px;
+      float: left;
+      width: 32.7%; }
+    #footer-locations h3 {
+      color: #C0C0C0;
+      font-size: 16px;
+      text-align: center; }
+    #footer-locations h5 {
+      color: #C0C0C0;
+      font-size: 12px;
+      text-align: center; }
+
+  #footer-career {
+    position: relative;
+    left: 0;
+    bottom: -70px;
+    height: 170px;
+    width: 100%;
+    background: #CB2222; }
+    #footer-career p {
+      padding-top: 20px;
+      margin-top: 30px;
+      font-size: 18px;
+      color: white;
+      text-align: center; }
+    #footer-career .one {
+      margin-top: 10px;
+      float: left;
+      width: 32.7%; }
+    #footer-career h3 {
+      color: #C0C0C0;
+      font-size: 16px;
+      text-align: center; }
+    #footer-career h5 {
+      color: #C0C0C0;
+      font-size: 12px;
+      text-align: center; }
 
   .nav-bar #topnav > .active > a {
     color: red; }

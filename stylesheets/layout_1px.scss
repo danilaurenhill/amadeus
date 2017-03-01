@@ -385,15 +385,17 @@ h1 {
   position: absolute;
   width: 100%;
   h1 {
-    margin-top: 320px;
+    margin-top: 120px;
+    font-size: 19px;
   }
   h4 {
-    padding-top: 40px;
+    padding-top: 10px;
     width: 85%;
-    font-size: 21px;
+    font-size: 17px;
   }
   h3 {
-    font-size: 25px;
+    margin-top: 10px;
+    font-size: 18px;
     width: 85%;
     color: $red;
   }
@@ -452,32 +454,33 @@ h1 {
   position: absolute;
   width: 100%;
   h1 {
-    margin-top: 282px;
+    margin-top: 110px;
+    font-size: 19px;
   }
   .list2015 {
     h3 {
       color: #444;
-      padding-top: 30px;
+      padding-top: -30px;
       padding-bottom: 40px;
-      font-size: 24px;
+      font-size: 17px;
       text-align: center;
     }
     h4 {
       float:left;
       position: relative;
       width: 95%;
-      margin-top: 10px;
+      margin-top: -30px;
       padding-left: 20px;
       overflow: hidden;
       font-size: 18px;
-      margin-bottom: 25px;
+      margin-bottom: 45px;
       text-align: center;
     }
     h2 {
       color: #444;
       padding-bottom: 40px;
       margin-top: 91%;
-      font-size: 24px;
+      font-size: 17px;
       text-align: center;
     }
   }
