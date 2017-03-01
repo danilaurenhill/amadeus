@@ -435,14 +435,16 @@ a {
     z-index: 2; }
 
   .about {
-    margin: -360px; }
+    /*margin: -360px;*/
+    width: 127%;
+    margin-left: -70px; }
     .about h1 {
-      padding-top: 205px;
+      /*padding-top: 205px;*/
       font-weight: 700;
       font-size: 18px;
       color: #CB2222;
       width: 180px;
-      margin-left: -26px; }
+      margin-left: 144px; }
     .about h3 {
       padding-top: 40px;
       font-weight: 700;
@@ -452,10 +454,10 @@ a {
     .about h4 {
       padding-top: 0px;
       /*margin-top: 300px;*/
-      width: 25%;
+      width: 71%;
       text-align: justify;
       color: #808080;
-      margin-left: -7px; }
+      margin-left: 73px; }
 
   .slideshow-program {
     position: absolute;
@@ -477,7 +479,7 @@ a {
   .extras {
     width: 100%;
     height: 600px;
-    padding-top: 400px; }
+    padding-top: 20px; }
     .extras .pics {
       width: 80%;
       height: 245px;
@@ -830,8 +832,9 @@ a {
         height: 42%;*/ }
         .wrapper .carnegie-grid ul h2 {
           color: #CB2222;
-          width: 226%;
-          text-align: center; }
+          width: 210%;
+          text-align: center;
+          padding-left: 22px; }
         .wrapper .carnegie-grid ul li {
           padding-left: 24px;
           width: 201%; }
@@ -841,7 +844,7 @@ a {
         position: relative;
         text-decoration: none;
         top: 120px;
-        left: -50%;
+        left: -10%;
         background-color: #CB2222;
         color: white;
         padding: 12px 36px;
