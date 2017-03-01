@@ -134,7 +134,7 @@ a {
 
   #footer-index {
     position: absolute;
-    bottom: -568px;
+    bottom: -268px;
     height: 113px;
     width: 100%;
     background: #CB2222; }
@@ -437,6 +437,7 @@ a {
   .about {
     /*margin: -360px;*/
     width: 127%;
+    margin-top: -135px;
     margin-left: -70px; }
     .about h1 {
       /*padding-top: 205px;*/
@@ -479,6 +480,7 @@ a {
   .extras {
     width: 100%;
     height: 600px;
+    padding-left: 2px;
     padding-top: 20px; }
     .extras .pics {
       width: 80%;
