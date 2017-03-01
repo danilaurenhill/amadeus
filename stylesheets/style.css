@@ -89,7 +89,7 @@ a {
       color: #CB2222;
       text-align: center;
       font-size: 16px;
-      width: 705px;
+      width: 745px;
       margin: -3px;
       padding-right: 551px;
       padding: -31px 16px;
@@ -136,7 +136,7 @@ a {
     position: absolute;
     bottom: -268px;
     height: 113px;
-    width: 100%;
+    width: 108%;
     background: #CB2222; }
     #footer-index p {
       margin-top: 2px;
@@ -414,7 +414,7 @@ a {
     position: absolute;
     left: 0px;
     top: -10px;
-    width: 100%;
+    width: 107%;
     height: 50%;
     opacity: 0;
     z-index: 1;
@@ -437,7 +437,7 @@ a {
   .about {
     /*margin: -360px;*/
     width: 127%;
-    margin-top: -135px;
+    margin-top: -222px;
     margin-left: -70px; }
     .about h1 {
       /*padding-top: 205px;*/
@@ -445,7 +445,7 @@ a {
       font-size: 18px;
       color: #CB2222;
       width: 180px;
-      margin-left: 144px; }
+      margin-left: 42px; }
     .about h3 {
       padding-top: 40px;
       font-weight: 700;
@@ -458,7 +458,7 @@ a {
       width: 71%;
       text-align: justify;
       color: #808080;
-      margin-left: 73px; }
+      margin-left: 74px; }
 
   .slideshow-program {
     position: absolute;
@@ -480,7 +480,7 @@ a {
   .extras {
     width: 100%;
     height: 600px;
-    padding-left: 2px;
+    padding-left: 18px;
     padding-top: 20px; }
     .extras .pics {
       width: 80%;
