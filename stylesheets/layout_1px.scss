@@ -214,7 +214,8 @@ h1 {
   position: absolute;
   width: 100%;
   h1 {
-    margin-top: -130px;
+    margin-top: -100px;
+    font-size: 19px;
   }
   .loc_1 {
     position: relative;
@@ -225,7 +226,7 @@ h1 {
     padding-bottom: 10px;
     h2 {
       text-align: center;
-      font-size: 26px;
+      font-size: 20px;
       font-weight: 700;
       padding-bottom: 15px;
       color: $darkgray;
@@ -239,7 +240,7 @@ h1 {
       padding-left: 15px;
       font-size: 19px;
       padding-top: 10px;
-      color: lightgray;
+      color: darkgray;
       border-bottom: none;
       line-height: nonel;
       width: 280px;
@@ -270,7 +271,7 @@ h1 {
     padding-bottom: 10px;
     h2 {
       text-align: center;
-      font-size: 26px;
+      font-size: 20px;
       padding-bottom: 15px;
       color: $darkgray;
     }
@@ -282,7 +283,7 @@ h1 {
     h3 {
       font-size: 19px;
       padding-top: 10px;
-      color: lightgray;
+      color: darkgray;
       border-bottom: none;
       line-height: nonel;
       width: 280px;
@@ -321,7 +322,7 @@ h1 {
     padding-bottom: 10px;
     h2 {
       text-align: center;
-      font-size: 26px;
+      font-size: 20px;
       padding-bottom: 15px;
       color: $darkgray;
     }
@@ -333,7 +334,7 @@ h1 {
     h3 {
       font-size: 19px;
       padding-top: 10px;
-      color: lightgray;
+      color: darkgray;
       border-bottom: none;
       line-height: nonel;
       width: 380px;
@@ -417,8 +418,9 @@ h1 {
 .gallery {
   position: absolute;
   width: 100%;
+  margin-left: -5px;
   h1 {
-    margin-top: 105px;
+    margin-top: 65px;
     color: $red;
   }
   .rows {
@@ -438,6 +440,7 @@ h1 {
       h4 {
         color: $darkgray;
         padding-left: 32%;
+        width: 86%;
       }
       h3 {
         width: 600px;
@@ -469,6 +472,7 @@ h1 {
       float:left;
       position: relative;
       width: 95%;
+      color: $darkgray;
       margin-top: -30px;
       padding-left: 20px;
       overflow: hidden;
@@ -494,7 +498,7 @@ h1 {
     h2 {
       @include clearfix;
       position: relative;
-      top: -80px;
+      top: -70px;
       margin-top: 300px;
       color: $red;
       margin-left: 8%; 
@@ -565,7 +569,7 @@ h1 {
   position: absolute;
   width: 100%;
   h1 {
-    padding-top: 85px;
+    padding-top: 35px;
     color: $red;
   }
   .media {
@@ -578,7 +582,8 @@ h1 {
     }
     h4 {
       color: $darkgray;
-      font-size: 24px;
+      font-size: 18px;
+      margin-left: 10px;
       margin-top: 20px;
       text-align: center;
       width: 100%;
@@ -590,8 +595,9 @@ h1 {
     small {
       text-align: center;
       text-decoration: none;
-      margin-left: 25px;
+      margin-left: 5px;
       margin-top: -60px;
+      font-size: 16px;
       display: block;
       &:hover {
         text-decoration: none;
@@ -602,7 +608,8 @@ h1 {
       width: 90%;
       margin-bottom: 15px;
       margin-top: 57px;
-      margin-left: 30px;
+      margin-left: 12px;
+      font-size: 19px;
       color: black;
       text-align: justify;
       /*text-align: center;*/
@@ -615,14 +622,14 @@ h1 {
   width: 100%;
   display: block;
   h1 {
-    padding-top: 305px;
+    padding-top: 130px;
     color: $red;
-    font-size: 28px;
+    font-size: 19px;
   }
 }
 .stories {
   text-align: center;
-  margin-top: 35px;
+  margin-top: 30px;
   .pic {
     border-radius: 50%;
     width: 30%;
@@ -630,13 +637,13 @@ h1 {
   }
   h2 {
     width: 78%;
-    font-size: 22px;
+    font-size: 17px;
     color: $red;
   }
   h3 {
     width: 90%;
     padding-bottom: 80px;
     text-align: justify;
-    font-size: 20px;
+    font-size: 16px;
   }
 }

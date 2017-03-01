@@ -135,7 +135,7 @@ a {
   #footer-index {
     position: absolute;
     bottom: -568px;
-    height: 88px;
+    height: 103px;
     width: 100%;
     background: #CB2222; }
     #footer-index p {
@@ -150,18 +150,18 @@ a {
       width: 33.2%; }
     #footer-index h3 {
       color: #C0C0C0;
-      font-size: 8px;
+      font-size: 9px;
       text-align: center; }
     #footer-index h5 {
       color: #C0C0C0;
-      font-size: 8px;
+      font-size: 10px;
       text-align: center; }
 
   #footer-programs {
     position: absolute;
     bottom: -1068px;
     margin-bottom: -730px;
-    height: 88px;
+    height: 103px;
     width: 100%;
     background: #CB2222; }
     #footer-programs p {
@@ -176,17 +176,17 @@ a {
       width: 33.2%; }
     #footer-programs h3 {
       color: #C0C0C0;
-      font-size: 8px;
+      font-size: 9px;
       text-align: center; }
     #footer-programs h5 {
       color: #C0C0C0;
-      font-size: 8px;
+      font-size: 10px;
       text-align: center; }
 
   #footer-carnegie {
     position: absolute;
-    bottom: -2500px;
-    height: 88px;
+    bottom: -2000px;
+    height: 98px;
     width: 100%;
     background: #CB2222; }
     #footer-carnegie p {
@@ -201,24 +201,24 @@ a {
       width: 33.2%; }
     #footer-carnegie h3 {
       color: #C0C0C0;
-      font-size: 8px;
+      font-size: 9px;
       text-align: center; }
     #footer-carnegie h5 {
       color: #C0C0C0;
-      font-size: 8px;
+      font-size: 10px;
       text-align: center; }
 
   #footer-media {
     position: relative;
     left: 0;
-    bottom: -1320px;
-    height: 170px;
+    bottom: -1020px;
+    height: 120px;
     width: 100%;
     background: #CB2222; }
     #footer-media p {
-      padding-top: 20px;
+      padding-top: 10px;
+      font-size: 11px;
       margin-top: 30px;
-      font-size: 18px;
       color: white;
       text-align: center; }
     #footer-media .one {
@@ -227,22 +227,23 @@ a {
       width: 32.7%; }
     #footer-media h3 {
       color: #C0C0C0;
-      font-size: 16px;
+      font-size: 9px;
       text-align: center; }
     #footer-media h5 {
       color: #C0C0C0;
-      font-size: 12px;
+      font-size: 10px;
       text-align: center; }
 
   #footer-success {
     position: relative;
     left: 0;
     bottom: -198;
-    height: 170px;
+    height: 130px;
     width: 100%;
     background: #CB2222; }
     #footer-success p {
-      padding-top: 20px;
+      padding-top: 10px;
+      font-size: 11px;
       margin-top: 30px;
       font-size: 18px;
       color: white;
@@ -250,27 +251,27 @@ a {
     #footer-success .one {
       margin-top: 10px;
       float: left;
-      width: 32.7%; }
+      width: 32.5%; }
     #footer-success h3 {
       color: #C0C0C0;
-      font-size: 16px;
+      font-size: 9px;
       text-align: center; }
     #footer-success h5 {
       color: #C0C0C0;
-      font-size: 12px;
+      font-size: 10px;
       text-align: center; }
 
   #footer-gallery {
     position: relative;
     left: 0;
-    bottom: -1530px;
-    height: 170px;
+    bottom: -1690px;
+    height: 130px;
     width: 100%;
     background: #CB2222; }
     #footer-gallery p {
-      padding-top: 20px;
+      padding-top: 10px;
+      font-size: 11px;
       margin-top: 30px;
-      font-size: 18px;
       color: white;
       text-align: center; }
     #footer-gallery .one {
@@ -279,18 +280,18 @@ a {
       width: 32.7%; }
     #footer-gallery h3 {
       color: #C0C0C0;
-      font-size: 16px;
+      font-size: 9px;
       text-align: center; }
     #footer-gallery h5 {
       color: #C0C0C0;
-      font-size: 12px;
+      font-size: 10px;
       text-align: center; }
 
   #footer-achievements {
     position: absolute;
     bottom: -2468px;
     margin-bottom: -730px;
-    height: 88px;
+    height: 103px;
     width: 100%;
     background: #CB2222; }
     #footer-achievements p {
@@ -305,18 +306,18 @@ a {
       width: 33.2%; }
     #footer-achievements h3 {
       color: #C0C0C0;
-      font-size: 8px;
+      font-size: 9px;
       text-align: center; }
     #footer-achievements h5 {
       color: #C0C0C0;
-      font-size: 8px;
+      font-size: 10px;
       text-align: center; }
 
   #footer-locations {
     position: absolute;
     bottom: -398px;
     margin-bottom: -730px;
-    height: 88px;
+    height: 103px;
     width: 100%;
     background: #CB2222; }
     #footer-locations p {
@@ -331,18 +332,18 @@ a {
       width: 33.2%; }
     #footer-locations h3 {
       color: #C0C0C0;
-      font-size: 8px;
+      font-size: 9px;
       text-align: center; }
     #footer-locations h5 {
       color: #C0C0C0;
-      font-size: 8px;
+      font-size: 10px;
       text-align: center; }
 
   #footer-career {
     position: absolute;
     bottom: 568px;
     margin-bottom: -730px;
-    height: 88px;
+    height: 103px;
     width: 103%;
     background: #CB2222; }
     #footer-career p {
@@ -357,11 +358,11 @@ a {
       width: 33.2%; }
     #footer-career h3 {
       color: #C0C0C0;
-      font-size: 8px;
+      font-size: 9px;
       text-align: center; }
     #footer-career h5 {
       color: #C0C0C0;
-      font-size: 8px;
+      font-size: 10px;
       text-align: center; }
 
   h1 {
@@ -550,7 +551,8 @@ a {
     position: absolute;
     width: 100%; }
     .locations h1 {
-      margin-top: -130px; }
+      margin-top: -100px;
+      font-size: 19px; }
     .locations .loc_1 {
       position: relative;
       top: 37px;
@@ -560,7 +562,7 @@ a {
       padding-bottom: 10px; }
       .locations .loc_1 h2 {
         text-align: center;
-        font-size: 26px;
+        font-size: 20px;
         font-weight: 700;
         padding-bottom: 15px;
         color: #808080; }
@@ -572,7 +574,7 @@ a {
         padding-left: 15px;
         font-size: 19px;
         padding-top: 10px;
-        color: lightgray;
+        color: darkgray;
         border-bottom: none;
         line-height: nonel;
         width: 280px; }
@@ -598,7 +600,7 @@ a {
       padding-bottom: 10px; }
       .locations .loc_2 h2 {
         text-align: center;
-        font-size: 26px;
+        font-size: 20px;
         padding-bottom: 15px;
         color: #808080; }
       .locations .loc_2 .pic {
@@ -608,7 +610,7 @@ a {
       .locations .loc_2 h3 {
         font-size: 19px;
         padding-top: 10px;
-        color: lightgray;
+        color: darkgray;
         border-bottom: none;
         line-height: nonel;
         width: 280px; }
@@ -641,7 +643,7 @@ a {
       padding-bottom: 10px; }
       .locations .loc_3 h2 {
         text-align: center;
-        font-size: 26px;
+        font-size: 20px;
         padding-bottom: 15px;
         color: #808080; }
       .locations .loc_3 .pic {
@@ -651,7 +653,7 @@ a {
       .locations .loc_3 h3 {
         font-size: 19px;
         padding-top: 10px;
-        color: lightgray;
+        color: darkgray;
         border-bottom: none;
         line-height: nonel;
         width: 380px; }
@@ -721,9 +723,10 @@ a {
   /*gallery*/
   .gallery {
     position: absolute;
-    width: 100%; }
+    width: 100%;
+    margin-left: -5px; }
     .gallery h1 {
-      margin-top: 105px;
+      margin-top: 65px;
       color: #CB2222; }
     .gallery .rows ul {
       top: 10px;
@@ -739,7 +742,8 @@ a {
         height: 28%; }
       .gallery .rows ul h4 {
         color: #808080;
-        padding-left: 32%; }
+        padding-left: 32%;
+        width: 86%; }
       .gallery .rows ul h3 {
         width: 600px;
         font-size: 18px;
@@ -763,6 +767,7 @@ a {
       float: left;
       position: relative;
       width: 95%;
+      color: #808080;
       margin-top: -30px;
       padding-left: 20px;
       overflow: hidden;
@@ -783,7 +788,7 @@ a {
     text-align: center; }
     .wrapper .carnegie-about h2 {
       position: relative;
-      top: -80px;
+      top: -70px;
       margin-top: 300px;
       color: #CB2222;
       margin-left: 8%;
@@ -848,7 +853,7 @@ a {
     position: absolute;
     width: 100%; }
     .media-wrapper h1 {
-      padding-top: 85px;
+      padding-top: 35px;
       color: #CB2222; }
     .media-wrapper .media img {
       margin-top: 3%;
@@ -858,7 +863,8 @@ a {
       height: 30%; }
     .media-wrapper .media h4 {
       color: #808080;
-      font-size: 24px;
+      font-size: 18px;
+      margin-left: 10px;
       margin-top: 20px;
       text-align: center;
       width: 100%; }
@@ -868,8 +874,9 @@ a {
     .media-wrapper .media small {
       text-align: center;
       text-decoration: none;
-      margin-left: 25px;
+      margin-left: 5px;
       margin-top: -60px;
+      font-size: 16px;
       display: block; }
       .media-wrapper .media small:hover {
         text-decoration: none; }
@@ -878,7 +885,8 @@ a {
       width: 90%;
       margin-bottom: 15px;
       margin-top: 57px;
-      margin-left: 30px;
+      margin-left: 12px;
+      font-size: 19px;
       color: black;
       text-align: justify;
       /*text-align: center;*/ }
@@ -887,26 +895,26 @@ a {
     width: 100%;
     display: block; }
     .success h1 {
-      padding-top: 305px;
+      padding-top: 130px;
       color: #CB2222;
-      font-size: 28px; }
+      font-size: 19px; }
 
   .stories {
     text-align: center;
-    margin-top: 35px; }
+    margin-top: 30px; }
     .stories .pic {
       border-radius: 50%;
       width: 30%;
       display: inline-block; }
     .stories h2 {
       width: 78%;
-      font-size: 22px;
+      font-size: 17px;
       color: #CB2222; }
     .stories h3 {
       width: 90%;
       padding-bottom: 80px;
       text-align: justify;
-      font-size: 20px; } }
+      font-size: 16px; } }
 @media screen and (min-width: 750px) {
   .nav-bar {
     float: left;
@@ -1076,7 +1084,7 @@ a {
   #footer-media {
     position: relative;
     left: 0;
-    bottom: -1020px;
+    bottom: -1220px;
     height: 170px;
     width: 100%;
     background: #CB2222; }
