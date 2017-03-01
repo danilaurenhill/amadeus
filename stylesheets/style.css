@@ -141,7 +141,7 @@ a {
     #footer-index p {
       margin-top: 2px;
       padding-top: 10px;
-      font-size: 11px;
+      font-size: 13px;
       color: white;
       text-align: center; }
     #footer-index .one {
@@ -150,11 +150,11 @@ a {
       width: 33.2%; }
     #footer-index h3 {
       color: #C0C0C0;
-      font-size: 9px;
+      font-size: 11px;
       text-align: center; }
     #footer-index h5 {
       color: #C0C0C0;
-      font-size: 10px;
+      font-size: 11px;
       text-align: center; }
 
   #footer-programs {
@@ -167,7 +167,7 @@ a {
     #footer-programs p {
       margin-top: 2px;
       padding-top: 10px;
-      font-size: 11px;
+      font-size: 13px;
       color: white;
       text-align: center; }
     #footer-programs .one {
@@ -176,11 +176,11 @@ a {
       width: 33.2%; }
     #footer-programs h3 {
       color: #C0C0C0;
-      font-size: 9px;
+      font-size: 11px;
       text-align: center; }
     #footer-programs h5 {
       color: #C0C0C0;
-      font-size: 10px;
+      font-size: 11px;
       text-align: center; }
 
   #footer-carnegie {
@@ -192,7 +192,7 @@ a {
     #footer-carnegie p {
       margin-top: 2px;
       padding-top: 10px;
-      font-size: 11px;
+      font-size: 13px;
       color: white;
       text-align: center; }
     #footer-carnegie .one {
@@ -201,11 +201,11 @@ a {
       width: 33.2%; }
     #footer-carnegie h3 {
       color: #C0C0C0;
-      font-size: 9px;
+      font-size: 11px;
       text-align: center; }
     #footer-carnegie h5 {
       color: #C0C0C0;
-      font-size: 10px;
+      font-size: 11px;
       text-align: center; }
 
   #footer-media {
@@ -217,7 +217,7 @@ a {
     background: #CB2222; }
     #footer-media p {
       padding-top: 10px;
-      font-size: 11px;
+      font-size: 13px;
       margin-top: 30px;
       color: white;
       text-align: center; }
@@ -227,11 +227,11 @@ a {
       width: 32.7%; }
     #footer-media h3 {
       color: #C0C0C0;
-      font-size: 9px;
+      font-size: 11px;
       text-align: center; }
     #footer-media h5 {
       color: #C0C0C0;
-      font-size: 10px;
+      font-size: 11px;
       text-align: center; }
 
   #footer-success {
@@ -243,9 +243,8 @@ a {
     background: #CB2222; }
     #footer-success p {
       padding-top: 10px;
-      font-size: 11px;
+      font-size: 13px;
       margin-top: 30px;
-      font-size: 18px;
       color: white;
       text-align: center; }
     #footer-success .one {
@@ -254,11 +253,11 @@ a {
       width: 32.5%; }
     #footer-success h3 {
       color: #C0C0C0;
-      font-size: 9px;
+      font-size: 11px;
       text-align: center; }
     #footer-success h5 {
       color: #C0C0C0;
-      font-size: 10px;
+      font-size: 11px;
       text-align: center; }
 
   #footer-gallery {
@@ -270,7 +269,7 @@ a {
     background: #CB2222; }
     #footer-gallery p {
       padding-top: 10px;
-      font-size: 11px;
+      font-size: 13px;
       margin-top: 30px;
       color: white;
       text-align: center; }
@@ -280,11 +279,11 @@ a {
       width: 32.7%; }
     #footer-gallery h3 {
       color: #C0C0C0;
-      font-size: 9px;
+      font-size: 11px;
       text-align: center; }
     #footer-gallery h5 {
       color: #C0C0C0;
-      font-size: 10px;
+      font-size: 11px;
       text-align: center; }
 
   #footer-achievements {
@@ -297,7 +296,7 @@ a {
     #footer-achievements p {
       margin-top: 2px;
       padding-top: 10px;
-      font-size: 11px;
+      font-size: 13px;
       color: white;
       text-align: center; }
     #footer-achievements .one {
@@ -306,11 +305,11 @@ a {
       width: 33.2%; }
     #footer-achievements h3 {
       color: #C0C0C0;
-      font-size: 9px;
+      font-size: 11px;
       text-align: center; }
     #footer-achievements h5 {
       color: #C0C0C0;
-      font-size: 10px;
+      font-size: 11px;
       text-align: center; }
 
   #footer-locations {
@@ -323,7 +322,7 @@ a {
     #footer-locations p {
       margin-top: 2px;
       padding-top: 10px;
-      font-size: 11px;
+      font-size: 13px;
       color: white;
       text-align: center; }
     #footer-locations .one {
@@ -332,11 +331,11 @@ a {
       width: 33.2%; }
     #footer-locations h3 {
       color: #C0C0C0;
-      font-size: 9px;
+      font-size: 11px;
       text-align: center; }
     #footer-locations h5 {
       color: #C0C0C0;
-      font-size: 10px;
+      font-size: 11px;
       text-align: center; }
 
   #footer-career {
@@ -349,7 +348,7 @@ a {
     #footer-career p {
       margin-top: 2px;
       padding-top: 10px;
-      font-size: 11px;
+      font-size: 13px;
       color: white;
       text-align: center; }
     #footer-career .one {
@@ -358,12 +357,13 @@ a {
       width: 33.2%; }
     #footer-career h3 {
       color: #C0C0C0;
-      font-size: 9px;
+      font-size: 11px;
       text-align: center; }
     #footer-career h5 {
       color: #C0C0C0;
-      font-size: 10px;
-      text-align: center; }
+      font-size: 11px;
+      text-align: center;
+      color: white; }
 
   h1 {
     font-size: 24px;
@@ -551,7 +551,7 @@ a {
     position: absolute;
     width: 100%; }
     .locations h1 {
-      margin-top: -100px;
+      margin-top: -90px;
       font-size: 19px; }
     .locations .loc_1 {
       position: relative;
@@ -656,7 +656,8 @@ a {
         color: darkgray;
         border-bottom: none;
         line-height: nonel;
-        width: 380px; }
+        width: 380px;
+        margin-left: -65px; }
       .locations .loc_3 .seven {
         margin-bottom: 10px;
         width: 10%;
@@ -696,7 +697,7 @@ a {
     position: absolute;
     width: 100%; }
     .career h1 {
-      margin-top: 120px;
+      margin-top: 165px;
       font-size: 19px; }
     .career h4 {
       padding-top: 10px;
@@ -895,7 +896,7 @@ a {
     width: 100%;
     display: block; }
     .success h1 {
-      padding-top: 130px;
+      padding-top: 150px;
       color: #CB2222;
       font-size: 19px; }
 
