@@ -91,7 +91,7 @@ ul.topnav li.icon {display: none;}
 
 
 
-.nav-bar {
+/*.nav-bar {
   position: absolute;
   z-index: 3;
   @include span-columns(12);
@@ -104,7 +104,7 @@ ul.topnav li.icon {display: none;}
       margin-right: 0px;
       font-weight: 900;
     }
-  }
+  }*/
 
 ul.topnav-program {
   width: 100%;
@@ -164,7 +164,7 @@ ul.topnav-program li.icon {display: none;}
   }
 }
 
-@media screen and (max-width:980px) {
+/*@media screen and (max-width:980px) {
   ul.topnav-program.responsive {position: relative;}
   ul.topnav-program.responsive li.icon {
     position: absolute;
@@ -179,8 +179,7 @@ ul.topnav-program li.icon {display: none;}
     display: inline;
     text-align: left;
   }
-}
-}
+}*/
 
 
 
@@ -972,7 +971,7 @@ body {
 }
 #footer-programs {
   position: absolute;
-  bottom: -568px;
+  bottom: -868px;
   margin-bottom: -730px;
   height: 113px;
   width: 100%;
