@@ -34,7 +34,7 @@ ul.topnav li a {
   padding: 1px 10px;
   margin-top: -24px;
   text-decoration: none;
-  font-size: 8px;
+  font-size: 10px;
   z-index: 14;
   font-family: $font;
   padding-left: 2px;
@@ -100,7 +100,7 @@ body {
 #footer-index {
   position: absolute;
   bottom: -568px;
-  height: 103px;
+  height: 113px;
   width: 100%;
   background: $red;
   p {
@@ -130,7 +130,7 @@ body {
   position: absolute;
   bottom: -1068px;
   margin-bottom: -730px;
-  height: 103px;
+  height: 113px;
   width: 100%;
   background: $red;
   p {
@@ -159,7 +159,7 @@ body {
 #footer-carnegie {
   position: absolute;
   bottom: -2000px;
-  height: 98px;
+  height: 108px;
   width: 100%;
   background: $red;
   p {
@@ -277,9 +277,9 @@ body {
 }
 #footer-achievements {
   position: absolute;
-  bottom: -2268px;
+  bottom: -2068px;
   margin-bottom: -730px;
-  height: 103px;
+  height: 113px;
   width: 100%;
   background: $red;
   p {
@@ -339,7 +339,7 @@ body {
   position: absolute;
   bottom: 568px;
   margin-bottom: -730px;
-  height: 103px;
+  height: 113px;
   width: 103%;
   background: $red;
   p {

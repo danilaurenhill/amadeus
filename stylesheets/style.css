@@ -79,7 +79,7 @@ a {
       padding: 1px 10px;
       margin-top: -24px;
       text-decoration: none;
-      font-size: 8px;
+      font-size: 10px;
       z-index: 14;
       font-family: "Open Sans Condensed", sans-serif;
       padding-left: 2px;
@@ -135,7 +135,7 @@ a {
   #footer-index {
     position: absolute;
     bottom: -568px;
-    height: 103px;
+    height: 113px;
     width: 100%;
     background: #CB2222; }
     #footer-index p {
@@ -161,7 +161,7 @@ a {
     position: absolute;
     bottom: -1068px;
     margin-bottom: -730px;
-    height: 103px;
+    height: 113px;
     width: 100%;
     background: #CB2222; }
     #footer-programs p {
@@ -186,7 +186,7 @@ a {
   #footer-carnegie {
     position: absolute;
     bottom: -2000px;
-    height: 98px;
+    height: 108px;
     width: 100%;
     background: #CB2222; }
     #footer-carnegie p {
@@ -288,9 +288,9 @@ a {
 
   #footer-achievements {
     position: absolute;
-    bottom: -2268px;
+    bottom: -2068px;
     margin-bottom: -730px;
-    height: 103px;
+    height: 113px;
     width: 100%;
     background: #CB2222; }
     #footer-achievements p {
@@ -342,7 +342,7 @@ a {
     position: absolute;
     bottom: 568px;
     margin-bottom: -730px;
-    height: 103px;
+    height: 113px;
     width: 103%;
     background: #CB2222; }
     #footer-career p {
@@ -551,7 +551,7 @@ a {
     position: absolute;
     width: 100%; }
     .locations h1 {
-      margin-top: -190px;
+      margin-top: -220px;
       font-size: 19px; }
     .locations .loc_1 {
       position: relative;
@@ -657,7 +657,7 @@ a {
         border-bottom: none;
         line-height: nonel;
         width: 380px;
-        margin-left: -65px; }
+        margin-left: -35px; }
       .locations .loc_3 .seven {
         margin-bottom: 10px;
         width: 10%;
@@ -756,7 +756,7 @@ a {
     position: absolute;
     width: 100%; }
     .achievements h1 {
-      margin-top: 150px;
+      margin-top: 180px;
       font-size: 19px; }
     .achievements .list2015 h3 {
       color: #444;
