@@ -188,7 +188,7 @@ a {
     bottom: -2000px;
     height: 108px;
     padding-left: 20px;
-    width: 100%;
+    width: 102.7%;
     background: #CB2222; }
     #footer-carnegie p {
       margin-top: 2px;
@@ -317,7 +317,7 @@ a {
     position: absolute;
     bottom: -398px;
     margin-bottom: -730px;
-    height: 103px;
+    height: 113px;
     width: 100%;
     background: #CB2222; }
     #footer-locations p {
@@ -732,7 +732,7 @@ a {
     width: 100%;
     margin-left: -5px; }
     .gallery h1 {
-      margin-top: 65px;
+      margin-top: 95px;
       color: #CB2222; }
     .gallery .rows ul {
       top: 10px;
@@ -761,7 +761,7 @@ a {
     position: absolute;
     width: 100%; }
     .achievements h1 {
-      margin-top: 180px;
+      margin-top: 200px;
       font-size: 19px; }
     .achievements .list2015 h3 {
       color: #444;
@@ -838,8 +838,8 @@ a {
           text-align: center;
           padding-left: 22px; }
         .wrapper .carnegie-grid ul li {
-          padding-left: 24px;
-          width: 201%; }
+          padding-left: 80px;
+          width: 193%; }
         .wrapper .carnegie-grid ul h4 {
           color: #808080; }
       .wrapper .carnegie-grid a {
