@@ -252,7 +252,11 @@ a {
     position: absolute;
     margin-top: -20px;
     text-align: center;
-    width: 100%; }
+    width: 102.5%; }
+    .slideshow-program::after {
+      clear: both;
+      content: "";
+      display: block; }
     .slideshow-program .pic {
       position: relative;
       z-index: 1;
@@ -503,8 +507,7 @@ a {
       z-index: 1;
       display: inline-block;
       width: 100%;
-      height: 40%;
-      /*opacity: 0.9;*/ }
+      height: 45%; }
 
   /*gallery*/
   .gallery {
@@ -570,14 +573,19 @@ a {
     text-align: center; }
     .wrapper .carnegie-about h2 {
       position: relative;
-      top: 270px;
+      top: 40px;
+      margin-top: 300px;
       color: #CB2222;
       margin-left: 8%;
       margin-right: 8%;
       font-size: 22px; }
+      .wrapper .carnegie-about h2::after {
+        clear: both;
+        content: "";
+        display: block; }
     .wrapper .carnegie-about h3 {
       position: relative;
-      top: 290px;
+      top: 70px;
       font-size: 22px;
       color: black;
       margin-left: 5%;
@@ -590,7 +598,7 @@ a {
       margin-top: 20px; }
       .wrapper .carnegie-grid ul {
         position: relative;
-        top: 280px;
+        top: 50px;
         right: 43%;
         text-align: justify;
         width: 80%;
@@ -610,7 +618,7 @@ a {
       .wrapper .carnegie-grid a {
         position: relative;
         text-decoration: none;
-        top: 350px;
+        top: 120px;
         left: -50%;
         background-color: #CB2222;
         color: white;
@@ -836,6 +844,20 @@ a {
       position: relative;
       top: 1px; }
 
+  /*.slideshow-gallery {
+    position: absolute;
+    margin-top: -20px;
+    text-align: center;
+    width: 102.5%;
+    .pic {
+      position: relative;
+      z-index: 1;
+      display: inline-block;
+      width: 100%;
+      height: 60%;
+      opacity: 0.9;
+    }
+  }*/
   #slides {
     position: relative;
     height: 100%;
@@ -1231,6 +1253,10 @@ a {
     position: absolute;
     width: 100%;
     text-align: center; }
+    .wrapper::after {
+      clear: both;
+      content: "";
+      display: block; }
     .wrapper .carnegie-about h2 {
       position: relative;
       top: 440px;

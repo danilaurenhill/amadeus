@@ -37,6 +37,20 @@
     top:1px;
   }
 }
+/*.slideshow-gallery {
+  position: absolute;
+  margin-top: -20px;
+  text-align: center;
+  width: 102.5%;
+  .pic {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    width: 100%;
+    height: 60%;
+    opacity: 0.9;
+  }
+}*/
 
 #slides {
     position: relative;
@@ -500,6 +514,7 @@
 
 /*carnegie page*/
 .wrapper {
+  @include clearfix;
   margin: 0 auto;
   position: absolute;
   width: 100%;
