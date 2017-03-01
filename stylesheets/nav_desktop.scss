@@ -6,7 +6,7 @@
     width: 100%;
     list-style-type: none;
     overflow: hidden;
-    margin-top: -46px;
+    margin-top: -7px;
     padding: 3px;
     padding-top:25px;
     li {
@@ -74,6 +74,167 @@
     }
   }
 }
+
+
+
+.nav-bar {
+  @include span-columns(12);
+  position: absolute;
+  z-index: 3;
+  .topnav-program {
+    width: 100%;
+    list-style-type: none;
+    overflow: hidden;
+    margin-top: -38px;
+    padding: 3px;
+    padding-top:25px;
+    li {
+      float: left;
+      a {
+        position: relative;
+        /*right: 10px;*/
+        display: inline-block;
+        color: #f2f2f2;
+        /*text-align: center;*/
+        padding: 0px 10px;
+        text-decoration: none;
+        font-size: 18px;
+        z-index: 14;
+        font-family: $font;
+        font-weight: 100;
+        padding-right: 0px;
+      }
+      p {
+        position: relative;
+        display: inline;
+        color: $red;
+        /*text-align: center;*/
+        font-size: 28px;
+        left: 20px;
+        margin: -3px;
+        padding-right: 367px;
+        padding: -31px 16px;
+        text-decoration: none;
+        z-index: 14;
+        font-family: $font;
+        font-weight: 400;
+        &:hover {
+          background-color: rgba(255, 0, 0, 0);
+        }
+      }
+    }
+  }
+  :nav {
+    color: $red;
+   }
+  ul.topnav-program li a:hover {color: $red;}
+  ul.topnav-program li.icon {display: none;}
+  @media screen and (max-width:980px) {
+    ul.topnav-program li:not(:first-child) {display: none;}
+    ul.topnav-program li.icon {
+      float: right;
+      display: inline-block;
+    }
+  }
+  @media screen and (max-width:980px) {
+    ul.topnav-program.responsive {position: relative;}
+    ul.topnav-program.responsive li.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    ul.topnav-program.responsive li {
+      float: none;
+      display: inline;
+    }
+    ul.topnav-program.responsive li a {
+      display: block;
+      text-align: left;
+    }
+  }
+}
+
+
+
+
+
+.nav-bar {
+  @include span-columns(12);
+  position: absolute;
+  z-index: 3;
+  .topnav-carnegie {
+    width: 100%;
+    list-style-type: none;
+    overflow: hidden;
+    margin-top: -14px;
+    padding: 3px;
+    padding-top:-25px;
+    li {
+      float: left;
+      a {
+        position: relative;
+        /*right: 10px;*/
+        display: inline-block;
+        color: #f2f2f2;
+        /*text-align: center;*/
+        padding: 0px 10px;
+        text-decoration: none;
+        font-size: 18px;
+        z-index: 14;
+        font-family: $font;
+        font-weight: 100;
+        padding-right: 0px;
+      }
+      p {
+        position: relative;
+        display: inline;
+        color: $red;
+        /*text-align: center;*/
+        font-size: 28px;
+        left: 20px;
+        margin: -3px;
+        padding-right: 367px;
+        padding: -31px 16px;
+        text-decoration: none;
+        z-index: 14;
+        font-family: $font;
+        font-weight: 400;
+        &:hover {
+          background-color: rgba(255, 0, 0, 0);
+        }
+      }
+    }
+  }
+  :nav {
+    color: $red;
+   }
+  ul.topnav-carnegie li a:hover {color: $red;}
+  ul.topnav-carnegie li.icon {display: none;}
+  @media screen and (max-width:980px) {
+    ul.topnav-carnegie li:not(:first-child) {display: none;}
+    ul.topnav-carnegie li.icon {
+      float: right;
+      display: inline-block;
+    }
+  }
+  @media screen and (max-width:980px) {
+    ul.topnav-carnegie.responsive {position: relative;}
+    ul.topnav-carnegie.responsive li.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    ul.topnav-carnegie.responsive li {
+      float: none;
+      display: inline;
+    }
+    ul.topnav-carnegie.responsive li a {
+      display: block;
+      text-align: left;
+    }
+  }
+}
+
 
 
 
