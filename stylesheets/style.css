@@ -318,7 +318,7 @@ a {
     bottom: -398px;
     margin-bottom: -730px;
     height: 113px;
-    width: 100%;
+    width: 108%;
     background: #CB2222; }
     #footer-locations p {
       margin-top: 2px;
@@ -440,7 +440,7 @@ a {
     margin-top: -222px;
     margin-left: -70px; }
     .about h1 {
-      /*padding-top: 205px;*/
+      padding-top: 205px;
       font-weight: 700;
       font-size: 18px;
       color: #CB2222;
@@ -476,6 +476,18 @@ a {
       width: 100%;
       height: 45%;
       /*opacity: 0.9;*/ }
+
+  .slideshow-gallery {
+    position: absolute;
+    margin-top: -20px;
+    text-align: center;
+    width: 100%; }
+    .slideshow-gallery .pic {
+      position: relative;
+      z-index: 1;
+      display: inline-block;
+      width: 108%;
+      height: 200px; }
 
   .extras {
     width: 100%;
@@ -553,6 +565,7 @@ a {
 
   /*locations*/
   .locations {
+    padding-left: 20px;
     position: absolute;
     width: 100%; }
     .locations h1 {
@@ -713,18 +726,6 @@ a {
       font-size: 18px;
       width: 85%;
       color: #CB2222; }
-
-  .slideshow-gallery {
-    position: absolute;
-    margin-top: -20px;
-    text-align: center;
-    width: 100%; }
-    .slideshow-gallery .pic {
-      position: relative;
-      z-index: 1;
-      display: inline-block;
-      width: 100%;
-      height: 45%; }
 
   /*gallery*/
   .gallery {
