@@ -1107,7 +1107,7 @@ a {
       position: relative;
       z-index: 4;
       color: white;
-      top: -600px;
+      top: -450px;
       font-size: 25px; }
     .slideshow .myButton {
       position: relative;
@@ -1162,7 +1162,7 @@ a {
 
   .about {
     /*margin: -360px;*/
-    width: 127%;
+    width: 118%;
     margin-top: -390px;
     margin-left: -70px; }
     .about h1 {
@@ -1170,14 +1170,15 @@ a {
       font-weight: 700;
       font-size: 18px;
       color: #CB2222;
-      width: 180px;
-      margin-left: 42px; }
+      width: 80px;
+      margin-left: 46px; }
     .about h3 {
       padding-top: 40px;
       font-weight: 700;
       font-size: 26px;
       color: #CB2222;
-      width: 80%; }
+      padding-left: 40px;
+      width: 90%; }
     .about h4 {
       padding-top: 0px;
       /*margin-top: 300px;*/
